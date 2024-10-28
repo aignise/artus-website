@@ -14,14 +14,51 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-title {
+  background-image: linear-gradient(
+    to right,
+    #1f1f1f00,
+    #151515f7,
+    #151515cc,
+    #1f1f1f00
+  );
+}
+.bgAgent {
+  background-image: url("./../assets/images/bg-agent.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.client-slider .slick-dots {
+  margin-top: 1rem;
+}
+.client-slider .slick-dots li button::before {
+  font-size: 10px;
+  color: #d9d9d9;
+  opacity: 1;
+}
+.client-slider .slick-dots li.slick-active button::before {
+  font-size: 16px;
+  opacity: 1;
+  color: #d9d9d9;
+}
+.bg-image-gradient {
+  background: linear-gradient(
+    180deg,
+    #1f1f1f,
+    #1f1f1fa4,
+    #1f1f1f54,
+    #1f1f1f3c,
+    rgba(255, 255, 255, 0.237),
+    rgba(255, 255, 255, 0.422),
+    rgba(255, 255, 255, 0.637),
+    rgba(255, 255, 255, 0.797),
+    white
+  );
 }
