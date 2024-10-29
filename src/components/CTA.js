@@ -162,35 +162,23 @@ const CTA = () => {
                 <div>
                   <div className="flex flex-col justify-center gap-8 items-center">
                     <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
-                      Artus turned our chaotic, slow development process into a
+                      "Artus turned our chaotic, slow development process into a
                       streamlined, automated powerhouse. We’ve saved months of
-                      work.
+                      work."
                     </p>
                     <p className="text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
-                      -John, CEO of DevPro
+                      — Head of Product at an innovative SaaS company
                     </p>
                   </div>
                 </div>
                 <div className="h-full">
                   <div className="h-full flex flex-col justify-center gap-8 items-center">
                     <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
-                      Our sprint velocity increased by 60%, and our client
-                      satisfaction went through the roof.”
+                      "Our sprint velocity increased by 60%, and our client
+                      satisfaction went through the roof."
                     </p>
                     <p className="text-[19px] sm:text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
-                      – Sara, Head of Product at a SaaS Company
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex flex-col justify-center gap-8 items-center">
-                    <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
-                      Artus turned our chaotic, slow development process into a
-                      streamlined, automated powerhouse. We’ve saved months of
-                      work.
-                    </p>
-                    <p className="text-[19px] sm:text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
-                      -John, CEO of DevPro
+                      — CEO of a fast-growing software company
                     </p>
                   </div>
                 </div>
