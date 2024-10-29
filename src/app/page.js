@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <div className="bg-[#1f1f1f]">
         <Banner />
-        <LogoSection />
+        {/* <LogoSection /> */}
         <ProductTeam />
       </div>
       <ProductManagement />

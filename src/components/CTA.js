@@ -48,7 +48,7 @@ const CTA = () => {
   return (
     <div className="bg-[#6150FF] relative">
       <Image src={polygon} alt="polygon" className="w-full absolute" />
-      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 2xl:w-[70%] mx-auto relative z-10">
+      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[70%] mx-auto relative z-10">
         <h1 className="text-white text-[31px] xl1:text-[55px] 2xl:text-[67px] font-semibold leading-tight sm:text-center">
           Ideate, Build, and Deploy
           <br className="hidden sm:block" /> at Impossible Speed
@@ -74,11 +74,11 @@ const CTA = () => {
               </h4>
               <p className="text-white opacity-70 text-[10px] sm:text-[20px] xl1:text-[20px] 2xl:text-[25px] leading-tight">
                 Our users build software{" "}
-                <span className="font-semibold text-[13px] 2xl:text-[36px] text-black">
+                <span className="font-semibold text-[13px] sm:text-[28px] 2xl:text-[36px] text-black">
                   2x
                 </span>{" "}
                 to{" "}
-                <span className="font-semibold text-[13px] 2xl:text-[36px] text-black">
+                <span className="font-semibold text-[13px] sm:text-[28px] 2xl:text-[36px] text-black">
                   10x
                 </span>{" "}
                 faster than through <br className="hidden lg:block" />{" "}
@@ -104,7 +104,7 @@ const CTA = () => {
               <p className="text-white opacity-70 text-[10px] sm:text-[20px] xl1:text-[20px] 2xl:text-[25px] leading-tight">
                 By automating a majority of the tasks, you can reduce{" "}
                 <br className="hidden lg:block" /> costs by up to{" "}
-                <span className="font-semibold text-[14px] 2xl:text-[36px] text-black">
+                <span className="font-semibold text-[14px] sm:text-[28px] 2xl:text-[36px] text-black">
                   50%
                 </span>{" "}
               </p>

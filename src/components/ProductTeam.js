@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const ProductTeam = () => {
   return (
-    <div className="relative bgAgent">
+    <div className="relative bgAgent" id="content">
       <div className="w-max mx-auto bg-title py-10 sm:px-32 mt-10 text-center">
         <h3 className="text-[20px] sm:text-[31px] xl:text-[31px] 2xl:text-[37px] text-[#09CAFF] font-semibold">
           24/7. AI-Powered. Always On.

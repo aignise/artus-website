@@ -38,9 +38,12 @@ const Banner = () => {
           >
             <span>Book a Demo</span>
           </Link>
-          <button className="bg-transparent text-[12px] sm:text-sm xl1::text-base 2xl:text-lg border flex items-center min-h-11 leading-none border-white text-white rounded-full font-semibold py-2.5 px-8">
+          <Link
+            href={"#content"}
+            className="bg-transparent text-[12px] sm:text-sm xl1::text-base 2xl:text-lg border flex items-center min-h-11 leading-none border-white text-white rounded-full font-semibold py-2.5 px-8"
+          >
             <span>Learn More</span>
-          </button>
+          </Link>
         </div>
         <div className="w-[90%] lg:w-4/5 mx-auto">
           <Image src={bannerImage} alt="bannerImage" priority />

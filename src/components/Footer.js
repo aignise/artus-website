@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000000] py-16">
+    <div className="bg-[#000000] py-5 2xl:py-8">
       <div className="w-5/6 lg:w-3/4 mx-auto">
         <div className="flex justify-between items-center">
           <Link href={"#"}>
@@ -19,7 +19,7 @@ const Footer = () => {
               className="w-[80px] 2xl:w-[109px] h-auto"
             />
           </Link>
-          <div className="hidden sm:block">
+          {/* <div className="hidden sm:block">
             <Link
               className="text-white font-semibold text-sm 2xl:text-lg mx-5"
               href={"#"}
@@ -32,15 +32,16 @@ const Footer = () => {
             >
               Privacy Policy
             </Link>
-          </div>
+          </div> */}
           <div className="flex">
             <Link
               className="text-white font-semibold text-sm block p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
-              href={"#"}
+              href={"https://www.linkedin.com/company/artusai"}
+              target="_blank"
             >
               <Image src={linkedin} alt="linkedin" />
             </Link>
-            <Link
+            {/* <Link
               className="text-white font-semibold text-sm block p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
               href={"#"}
             >
@@ -51,10 +52,19 @@ const Footer = () => {
               href={"#"}
             >
               <Image src={twitter} alt="twitter" />
-            </Link>
+            </Link> */}
           </div>
         </div>
-        <div className="flex flex-col gap-5 mt-8 sm:hidden">
+        <p className="text-white opacity-60 text-xs 2xl:text-base">
+          We are Artus. Our goal is to translate the positive effects from
+          revolutionizing how companies engage with their clients & their team.
+        </p>
+        <div className="flex justify-center items-center border-t border-[#ffffff45] mt-5">
+          <p className="text-white text-xs mt-5">
+            All rights reserved. Copyright © 2024 Artus AI Workspaces Pvt Ltd
+          </p>
+        </div>
+        {/* <div className="flex flex-col gap-5 mt-8 sm:hidden">
           <Link
             className="text-white font-semibold text-sm 2xl:text-lg"
             href={"#"}
@@ -67,8 +77,8 @@ const Footer = () => {
           >
             Privacy Policy
           </Link>
-        </div>
-        <div className="mt-8 sm:mt-16">
+        </div> */}
+        {/* <div className="mt-8 sm:mt-16">
           <p className="text-white font-bold text-base 2xl:text-[21px]">
             Subscribe
           </p>
@@ -86,7 +96,7 @@ const Footer = () => {
             from revolutionizing how companies engage with their clients & their
             team.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
