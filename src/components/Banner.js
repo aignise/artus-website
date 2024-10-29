@@ -25,7 +25,7 @@ const Banner = () => {
             for the Next Generation
           </span>
         </h1>
-        <p className="w-full px-5 sm:px-0 sm:w-11/12 mx-auto lg:w-full text-white text-[17px] sm:text-[19px] xl1::text-[19px] 2xl:text-[20px] sm:text-center my-8 sm:my-12">
+        <p className="w-full px-5 sm:px-0 sm:w-11/12 mx-auto lg:w-full text-white text-[17px] sm:text-[19px] xl1::text-[19px] 2xl:text-[21px] sm:text-center my-8 sm:my-12">
           From idea to execution, Artus empowers you with AI Workers to build
           faster, smarter, <br className="hidden lg:block" />
           and at a fraction of the cost.

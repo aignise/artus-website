@@ -11,13 +11,25 @@ import polygon from "@/assets/images/polygon.png";
 import Link from "next/link";
 
 const CTA = () => {
+  const data = [
+    {
+      review:
+        "Artus turned our chaotic, slow development process into a streamlined, automated powerhouse. We’ve saved months of work.",
+      client: "— Head of Product at an innovative SaaS company",
+    },
+    {
+      review:
+        "Our sprint velocity increased by 60%, and our client satisfaction went through the roof.",
+      client: "— CEO of a fast-growing software company",
+    },
+  ];
   const settings = {
-    dots: true,
+    dots: data.length > 3 ? true : false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: data.length > 3 ? 3 : data.length,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: data.length > 3 ? true : false,
     autoplaySpeed: 6000,
     arrows: false,
     responsive: [
@@ -26,13 +38,17 @@ const CTA = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          dots: data.length > 2 ? true : false,
+          autoplay: data.length > 2 ? true : false,
         },
       },
       {
         breakpoint: 768,
         settings: {
+          dots: data.length > 1 ? true : false,
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: data.length > 1 ? true : false,
         },
       },
       {
@@ -159,31 +175,20 @@ const CTA = () => {
             <div className="mt-10 sm:mt-20">
               {/* Upper Section */}
               <Slider {...settings} className="client-slider">
-                <div>
-                  <div className="flex flex-col justify-center gap-8 items-center">
-                    <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
-                      "Artus turned our chaotic, slow development process into a
-                      streamlined, automated powerhouse. We’ve saved months of
-                      work."
-                    </p>
-                    <p className="text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
-                      — Head of Product at an innovative SaaS company
-                    </p>
-                  </div>
-                </div>
-                <div className="h-full">
-                  <div className="h-full flex flex-col justify-center gap-8 items-center">
-                    <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
-                      "Our sprint velocity increased by 60%, and our client
-                      satisfaction went through the roof."
-                    </p>
-                    <p className="text-[19px] sm:text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
-                      — CEO of a fast-growing software company
-                    </p>
-                  </div>
-                </div>
-
-                {/* Add more slides if needed */}
+                {data.map((item) => {
+                  return (
+                    <div>
+                      <div className="flex flex-col justify-center gap-8 items-center">
+                        <p className="text-[19px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4">
+                          {item.review}
+                        </p>
+                        <p className="text-[20px] xl1:text-[21px] 2xl:text-[25px] font-bold text-white opacity-70 text-center w-full sm:w-2/4 lg:w-3/4 mb-3">
+                          {item.client}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
               </Slider>
             </div>
             {/* <div className="flex justify-between items-start gap-28 mt-20">

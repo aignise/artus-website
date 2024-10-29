@@ -10,6 +10,7 @@ import monitor from "@/assets/images/monitor.png";
 import monitorLeft from "@/assets/images/monitor-left.png";
 import productivity from "@/assets/images/productivity.png";
 import productivityLeft from "@/assets/images/productivity-left.png";
+import artemis from "@/assets/images/artemis.png";
 import creation from "@/assets/images/creation.png";
 import creationLeft from "@/assets/images/creation-left.png";
 import Link from "next/link";
@@ -43,7 +44,7 @@ const DeveloperSection = () => {
               <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[34px]">
                 Codebase Preview
               </h2>
-              <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[25px]">
+              <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[22px]">
                 Preview the entire codebase on the app itself, keeping your
                 project at your fingertips.
               </p>
@@ -59,7 +60,7 @@ const DeveloperSection = () => {
               <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[34px]">
                 Guide
               </h2>
-              <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[25px]">
+              <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[22px]">
                 Step-by-step instructions guide you through each stage of
                 launching and managing your MVP.
               </p>
@@ -103,7 +104,7 @@ const DeveloperSection = () => {
         <Image
           src={circle}
           alt="circle"
-          className="absolute left-2/4 -translate-x-1/2 bottom-[37rem]"
+          className="w-auto md:w-[1000px] absolute left-2/4 -translate-x-1/2 bottom-[37rem]"
         />
         <Image
           src={circle}
@@ -115,7 +116,7 @@ const DeveloperSection = () => {
           alt="circle"
           className="absolute left-2/4 -translate-x-1/2 bottom-0"
         />
-        <div className="md:pt-24 pb-16 w-[85%] mx-auto relative z-10">
+        <div className="md:pt-10 pb-16 w-[85%] mx-auto relative z-10">
           <div className="sm:text-center">
             <h4 className="tracking-tight leading-none mx-auto font-semibold text-[29px] sm:text-[45px] xl1::text-[48px] 2xl:text-[52px] bg-gradient-to-r from-[#09CAFF] to-[#19FE93] inline-block text-transparent bg-clip-text">
               Unlock Unparalleled{" "}
@@ -123,9 +124,9 @@ const DeveloperSection = () => {
             <h3 className="tracking-tight leading-none font-semibold text-[29px] 2xl:text-[52px] text-white">
               Developer Productivity{" "}
             </h3>
-            <p className="text-white text-base sm:text-[18px] xl1::text-[19px] 2xl:text-[21px] mt-10 mb-16">
-              Traditional Processes Are History – <br />
-              Streamline Your Workflow and Stop the Resource Drain!
+            <p className="text-white text-base sm:text-[18px] xl1::text-[19px] 2xl:text-[21px] mt-10 mb-16 leading-normal">
+              Traditional processes are history – <br />
+              Streamline your workflow and stop the resource drain!
             </p>
           </div>
           <Image src={developer} alt="developer" className="w-full" />
@@ -137,7 +138,7 @@ const DeveloperSection = () => {
                 className="w-[31px] sm:w-[53px] h-auto"
               />
               <div>
-                <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[31px]">
+                <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[34px]">
                   AI Auto-Codes for Every Task
                 </h2>
                 <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[22px]">
@@ -152,7 +153,7 @@ const DeveloperSection = () => {
                 className="w-[31px] sm:w-[53px] h-auto"
               />
               <div>
-                <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[31px]">
+                <h2 className="text-white font-bold text-[17px] sm:text-[29px] xl1::text-[29px] 2xl:text-[34px]">
                   Breakdown Tasks Automatically
                 </h2>
                 <p className="text-white text-[12px] sm:text-[21px] xl1::text-[21px] mt-3 2xl:text-[22px]">
@@ -162,7 +163,7 @@ const DeveloperSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-3 justify-center py-16">
+          <div className="flex items-center gap-3 justify-center py-40">
             <p className="text-white font-semibold text-[13px] sm:text-[19px] xl1::text-lg 2xl:text-xl">
               Start using these Features
             </p>{" "}
@@ -174,19 +175,30 @@ const DeveloperSection = () => {
               <span>Book a Demo</span>
             </Link>
           </div>
-          <div className="mt-0 sm:mt-20">
-            <h2 className="w-full sm:w-3/4 sm:mx-auto lg:w-full sm:text-center text-white font-bold text-[24px] sm:text-[33px] xl1::text-[33px] 2xl:text-[35px]">
-              <span className="bg-gradient-to-r from-[#09CAFF] to-[#19FE93] inline-block text-transparent bg-clip-text">
-                Artemis by Artus:
-              </span>{" "}
+          <div>
+            <div className="flex items-center justify-center w-full sm:w-3/4 sm:mx-auto lg:w-full gap-2">
+              <Image
+                src={artemis}
+                alt="artemis"
+                className="xl1:w-9 2xl:w-[45px]"
+              />
+              <h2 className="tracking-tight leading-none sm:text-center text-white font-semibold text-[24px] sm:text-[33px] xl1::text-[33px] 2xl:text-[48px]">
+                <span className="bg-gradient-to-r from-[#09CAFF] to-[#19FE93] inline-block text-transparent bg-clip-text">
+                  Artemis by Artus:
+                </span>{" "}
+                <br />
+              </h2>
+            </div>
+            <h2 className="tracking-tight sm:text-center text-white font-semibold text-[24px] sm:text-[33px] xl1::text-[33px] 2xl:text-[42px]">
               Overseeing Success in Every Line of Code
             </h2>
-            <p className="sm:w-3/4 mx-auto lg:w-full sm:text-center text-white text-[15px] sm:text-[21px] xl1::text-[21px] 2xl:text-[22px] mt-4">
+
+            <p className="sm:w-3/4 mx-auto lg:w-full sm:text-center text-white text-[15px] sm:text-[21px] xl1::text-[21px] 2xl:text-[22px] mt-10">
               With Artemis, Developers Are Never Alone: Comprehensive Support at
               Every Step
             </p>
           </div>
-          <div className="mt-10 sm:mt-32">
+          <div className="mt-16">
             <div>
               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-5">
                 <div className="w-full lg:w-[55%]">
@@ -196,14 +208,14 @@ const DeveloperSection = () => {
                     className="w-full"
                   />
                 </div>
-                <div className="w-full sm:w-3/4 lg:w-[45%] flex justify-center items-start gap-4">
+                <div className="w-full sm:w-3/4 lg:w-[45%] flex pl-10 items-start gap-4">
                   <Image
                     src={monitor}
                     alt="monitor"
-                    className="w-[29px] sm:w-[38px] mt-1"
+                    className="w-[29px] sm:w-[50px] mt-1"
                   />
                   <div>
-                    <h4 className="font-semibold text-[20px] xl1::text-[31px] 2xl:text-[33px] text-[#09CAFF]">
+                    <h4 className="font-semibold text-[20px] xl1::text-[31px] 2xl:text-[36px] text-[#09CAFF]">
                       Monitors your progress,
                     </h4>
                     <p className="text-[14px] xl1:text-[21px] 2xl:text-[22px] text-white font-semibold">
