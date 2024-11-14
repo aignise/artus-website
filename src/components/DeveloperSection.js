@@ -176,11 +176,11 @@ const DeveloperSection = () => {
             </Link>
           </div>
           <div>
-            <div className="flex items-center justify-center w-full sm:w-3/4 sm:mx-auto lg:w-full gap-2">
+            <div className="flex items-center sm:justify-center w-full sm:w-3/4 sm:mx-auto lg:w-full gap-2 mb-4 sm:mb-0">
               <Image
                 src={artemis}
                 alt="artemis"
-                className="xl1:w-9 2xl:w-[45px]"
+                className="w-7 xl1:w-9 2xl:w-[45px]"
               />
               <h2 className="tracking-tight leading-none sm:text-center text-white font-semibold text-[24px] sm:text-[33px] xl1::text-[33px] 2xl:text-[48px]">
                 <span className="bg-gradient-to-r from-[#09CAFF] to-[#19FE93] inline-block text-transparent bg-clip-text">
