@@ -46,13 +46,13 @@ const page = () => {
         <h2 className="font-medium text-white text-[28px] xl1:text-[30px] 2xl:text-[32px]">
           Resources
         </h2>
-        <div className="flex mt-5 px-5 gap-10">
-          <div className="w-3/5">
+        <div className="block lg:flex md:mt-5 md:px-5 gap-10">
+          <div className="w-full lg:w-3/5">
             {articles.map((item, index) => {
               return <Articles item={item} key={index} />;
             })}
           </div>
-          <div className="w-2/5 pl-8 border-l border-[#676767]">
+          <div className="w-full lg:w-2/5 md:pl-8 border-0 md:border-l border-[#676767]">
             <h4
               className={`text-white font-medium text-[20px] ${firaSans.className}`}
             >

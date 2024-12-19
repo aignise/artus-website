@@ -24,25 +24,27 @@ const page = () => {
   return (
     <div className="bg-black w-full">
       <Header />
-      <div className="w-[70%] mx-auto">
+      <div className="w-full px-5 md:px-0 md:w-[70%] mx-auto">
         <Image src={athena} alt="athena" className="w-full" />
         <div className="flex items-center gap-3 mt-3">
-          <Image src={user} className="w-[52px] h-[52px]" />
+          <Image src={user} className="w-11 md:w-[52px] h-11 md:h-[52px]" />
           <div>
-            <p className="text-white text-[27px] font-light">Yashika Vahi</p>
+            <p className="text-white text-xl md:text-[27px] font-light">
+              Yashika Vahi
+            </p>
             <div className="flex items-center gap-2">
-              <Image src={read} alt="read" className="w-5 h-5" />
-              <p className="text-white">5 min read</p>
+              <Image src={read} alt="read" className="w-4 md:w-5 h-4 md:h-5" />
+              <p className="text-white text-sm md:text-base">5 min read</p>
             </div>
           </div>
         </div>
         <h1
-          className={`text-white font-bold text-[43px] mt-5 ${firaSans.className}`}
+          className={`text-white font-bold text-[27px] md:text-[43px] mt-5 ${firaSans.className}`}
         >
           Introduction to Athena
         </h1>
         <p
-          className={`text-[#E6E6E6] text-base xl1:text-lg 2xl:text-xl pt-8 pb-8 ${firaSans.className}`}
+          className={`text-[#E6E6E6] text-base xl1:text-lg 2xl:text-xl pt-4 md:pt-8 pb-4 md:pb-8 ${firaSans.className}`}
         >
           Product development often feels like navigating a maze blindfolded.
         </p>
@@ -76,7 +78,7 @@ const page = () => {
         </h2>
         <Image src={proactiveIntelligence} alt="Proactive Intelligence" />
         <p
-          className={`text-[#E6E6E6] text-lg mt-4 xl1:text-xl ${firaSans.className}`}
+          className={`text-[#E6E6E6] text-[16px] md:text-lg mt-4 xl1:text-xl ${firaSans.className}`}
         >
           Imagine skipping hours of research and endless debates over product
           decisions. Athena steps in with actionable insights, offering not just
@@ -93,7 +95,7 @@ const page = () => {
         </h2>
         <Image src={strategicClarity} alt="strategicClarity" />
         <p
-          className={`text-[#E6E6E6] text-lg mt-4 xl1:text-xl ${firaSans.className}`}
+          className={`text-[#E6E6E6] text-[16px] md:text-lg mt-4 xl1:text-xl ${firaSans.className}`}
         >
           Whether you’re shaping initial ideas or refining the final roadmap,
           Athena acts as your compass, cutting through the noise and simplifying
@@ -122,7 +124,7 @@ const page = () => {
           discovery into a streamlined, efficient process.
         </p>
         <p
-          className={`mt-10 text-[25px] italic font-medium ${firaSans.className} text-[#E6E6E6]`}
+          className={`mt-10 text-[22px] md:text-[25px] italic font-medium ${firaSans.className} text-[#E6E6E6]`}
         >
           When considering user scenarios, Athena doesn’t just ask,{" "}
           <span className="font-semibold">
@@ -132,33 +134,41 @@ const page = () => {
         </p>
         <div className="mt-10">
           <h4
-            className={`text-[#E6E6E6] font-bold text-xl ${firaSans.className}`}
+            className={`text-[#E6E6E6] font-bold text-[16px] md:text-xl ${firaSans.className}`}
           >
             For businesses:
           </h4>
-          <p className={`text-[#E6E6E6] mt-2 text-xl ${firaSans.className}`}>
+          <p
+            className={`text-[#E6E6E6] mt-2 text-[16px] md:text-xl ${firaSans.className}`}
+          >
             Suggests offering comparative charts that could showcase features,
             pricing, and user reviews for easy decision-making.
           </p>
           <h4
-            className={`text-[#E6E6E6] font-bold text-xl mt-6 ${firaSans.className}`}
+            className={`text-[#E6E6E6] font-bold text-[16px] md:text-xl mt-6 ${firaSans.className}`}
           >
             For researchers:
           </h4>
-          <p className={`text-[#E6E6E6] mt-2 text-xl ${firaSans.className}`}>
+          <p
+            className={`text-[#E6E6E6] mt-2 text-[16px] md:text-xl ${firaSans.className}`}
+          >
             Recommends including detailed descriptions and insights to evaluate
             tool effectiveness.
           </p>
           <h4
-            className={`text-[#E6E6E6] font-bold text-xl mt-6 ${firaSans.className}`}
+            className={`text-[#E6E6E6] font-bold text-[16px] md:text-xl mt-6 ${firaSans.className}`}
           >
             For general users:
           </h4>
-          <p className={`text-[#E6E6E6] mt-2 text-xl ${firaSans.className}`}>
+          <p
+            className={`text-[#E6E6E6] mt-2 text-[16px] md:text-xl ${firaSans.className}`}
+          >
             Proposes creating custom dashboards that allow tracking updates and
             favorite tools with ease.
           </p>
-          <p className={`text-[#E6E6E6] my-8 text-xl ${firaSans.className}`}>
+          <p
+            className={`text-[#E6E6E6] my-8 text-[16px] md:text-xl ${firaSans.className}`}
+          >
             Athena equips you with thoughtful suggestions, leaving you in
             control to pick what aligns with your goals.
           </p>
@@ -170,98 +180,104 @@ const page = () => {
             When debating frontend development tools, Athena dives into
             specifics to streamline your decisions:
           </h4>
-          <p className={`${firaSans.className} text-[#E6E6E6] text-[20px]`}>
+          <p
+            className={`${firaSans.className} text-[#E6E6E6] text-[16px] md:text-[20px]`}
+          >
             · Suggests exploring React for its dynamic, component-based
             framework that supports modern development needs.
           </p>
-          <p className={`${firaSans.className} text-[#E6E6E6] text-[20px]`}>
+          <p
+            className={`${firaSans.className} text-[#E6E6E6] text-[16px] md:text-[20px]`}
+          >
             · Recommends Bootstrap for its pre-designed, responsive design
             elements that can save time.
           </p>
-          <p className="text-[#E6E6E6] text-[20px] mt-6">
+          <p className="text-[#E6E6E6] text-[16px] md:text-[20px] mt-6">
             Athena narrows down the options, empowering you to choose the tools
             best suited to your project.
           </p>
           <Image src={thinkAi} alt="thinkAi" className="mt-8" />
         </div>
         <div className={`text-[#E6E6E6] ${firaSans.className} mt-8`}>
-          <h4 className="text-[24px] font-semibold">
+          <h4 className="text-[22px] md:text-[24px] font-semibold">
             For search result displays, Athena provides insightful ideas to
             shape your user experience:
           </h4>
           <p
-            className={`${firaSans.className} text-[#E6E6E6] mt-5 text-[20px]`}
+            className={`${firaSans.className} text-[#E6E6E6] mt-5 text-[16px] md:text-[20px]`}
           >
             · Proposes highlighting pricing, key features, and user ratings to
             facilitate quick comparison.
           </p>
-          <p className={`${firaSans.className} text-[#E6E6E6] text-[20px]`}>
+          <p
+            className={`${firaSans.className} text-[#E6E6E6] text-[16px] md:text-[20px]`}
+          >
             · Suggests adding a "recommended for you" section that personalizes
             results based on user preferences.
           </p>
-          <p className="text-[#E6E6E6] text-[20px] mt-6">
+          <p className="text-[#E6E6E6] text-[16px] md:text-[20px] mt-6">
             Athena offers clarity, ensuring you can tailor the display to your
             audience’s needs.
           </p>
           <Image src={diveDeeper} alt="diveDeeper" className="mt-8" />
         </div>
         <div className={`text-[#E6E6E6] ${firaSans.className} mt-8`}>
-          <h4 className="font-semibold text-[24px]">
+          <h4 className="font-semibold text-xl md:text-[24px]">
             Even the mobile experience is handled with care, with Athena
             presenting thoughtful possibilities:
           </h4>
-          <p className="text-[20px] mt-5">
+          <p className="text-[16px] md:text-[20px] mt-5">
             <span className="font-semibold">Recommends a hybrid approach</span>
             —combining a responsive web design with a dedicated mobile app for
             accessibility and user engagement. Suggests incorporating
             personalized notifications and alerts to keep users updated on
             relevant information.
           </p>
-          <p className="text-[20px] mt-5">
+          <p className="text-[16px] md:text-[20px] mt-5">
             <span className="font-semibold">
               Athena provides a foundation of informed options,{" "}
             </span>
             allowing you to build a mobile experience that resonates with your
             users.
           </p>
-          <p className="text-[20px] mt-5">
+          <p className="text-[16px] md:text-[20px] mt-5">
             <span className="font-semibold">What sets Athena apart is</span>
             its ability to respond dynamically. If a question feels unclear or a
             recommendation needs deeper explanation, Athena unpacks the “why”
             behind its suggestions, ensuring you understand the relevance and
             intent. It simplifies complexity without compromising on depth.
           </p>
-          <p className="text-[20px] mt-5">
+          <p className="text-[16px] md:text-[20px] mt-5">
             Imagine the hours of research, indecision, and potential missteps
             Athena can save you. By transforming vague ideas into actionable
             plans, it allows you to focus on what matters—bringing your vision
             to life.
           </p>
-          <p className="text-[20px] mt-5">
+          <p className="text-[16px] md:text-[20px] mt-5">
             <span className="font-semibold">
               Start your journey with Athena.{" "}
             </span>
             Not just to plan faster but to plan smarter.
           </p>
         </div>
-        <div className={`${firaSans.className} mt-14 text-[35px]`}>
+        <div className={`${firaSans.className} mt-14 text-2xl md:text-[35px]`}>
           <h4 className="font-medium text-white">More From Artus</h4>
-          <div className="flex mt-5 gap-10">
+          <div className="block md:flex mt-5 gap-10">
             <Link
               href={"/research/intoroduction-to-apollo"}
-              className="w-2/4 block"
+              className="md:w-2/4 block"
             >
               <Image src={apollo} alt="apollo" className="rounded-t-2xl" />
-              <p className="text-white text-xl font-semibold my-5 text-center">
+              <p className="text-white text-base md:text-xl font-semibold my-5 text-center">
                 Introduction to Apollo
               </p>
             </Link>
             <Link
               href={"/research/intoroduction-to-artimes"}
-              className="w-2/4 block"
+              className="md:w-2/4 block"
             >
               <Image src={artimes} alt="artimes" className="rounded-t-2xl" />
-              <p className="text-white text-xl font-semibold my-5 text-center">
+              <p className="text-white text-base md:text-xl font-semibold my-5 text-center">
                 Introduction to Artemis
               </p>
             </Link>
