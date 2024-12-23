@@ -121,7 +121,7 @@ const ProductTeam = () => {
           <Link
             href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
             target="_blank"
-            className="bg-[#046EC5] text-xs xl:text-base 2xl:text-lg border flex items-center min-h-11 leading-none border-[#046EC5] text-white rounded-full font-semibold py-2.5 px-8"
+            className="bg-[#046EC5] bg-gradient-to-r from-[#6EBAF8] to-[#046EC5] hover:to-[#6EBAF8] text-xs xl:text-base 2xl:text-lg flex items-center min-h-11 leading-none text-white rounded-full font-semibold py-2.5 px-8"
           >
             <span className="mb-1">Book a Demo</span>
           </Link>

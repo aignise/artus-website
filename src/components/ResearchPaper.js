@@ -81,7 +81,7 @@ const ResearchPaper = () => {
               </span>
             </div>
           </div>
-          <button className="bg-[#046EC5] text-xs xl:text-base 2xl:text-lg sm:mx-auto border flex items-center min-h-11 leading-none border-[#046EC5] text-white rounded-full font-semibold py-2.5 px-8">
+          <button className="bg-[#046EC5] text-xs xl:text-base 2xl:text-lg sm:mx-auto flex items-center min-h-11 leading-none text-white rounded-full font-semibold py-2.5 px-8">
             <span>View All</span>
           </button>
         </div>

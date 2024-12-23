@@ -24,7 +24,7 @@ const ProductManagement = () => {
         <Link
           href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
           target="_blank"
-          className="w-max bg-[#046EC5] text-xs xl:text-base 2xl:text-lg sm:mx-auto border flex items-center min-h-11 leading-none border-[#046EC5] text-white rounded-full font-semibold py-2.5 px-8"
+          className="w-max bg-gradient-to-r from-[#6EBAF8] to-[#046EC5] hover:to-[#6EBAF8] text-xs xl:text-base 2xl:text-lg sm:mx-auto flex items-center min-h-11 leading-none text-white rounded-full font-semibold py-2.5 px-8"
         >
           <span>Book Demo Now</span>
         </Link>

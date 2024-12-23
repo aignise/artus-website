@@ -20,7 +20,7 @@ const Articles = ({ item }) => {
         <Image
           src={item.image}
           alt="image"
-          className="w-full md:w-[195px] h-auto mt-2 md:mt-0 md:h-[125px]"
+          className="w-full md:w-[195px] h-auto mt-2 md:mt-0 md:h-[125px] object-fill"
         />
       </div>
     </Link>

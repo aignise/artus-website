@@ -2,10 +2,12 @@ import Articles from "@/components/Articles";
 import athena from "@/assets/images/athena-web.png";
 import artimes from "@/assets/images/artimes-web.png";
 import apollo from "@/assets/images/apollo-web.png";
+import business from "@/assets/images/current-business.png";
 import Header from "@/components/Header";
 import React from "react";
 import Footer from "@/components/Footer";
 import { Fira_Sans } from "next/font/google";
+import Link from "next/link";
 
 const firaSans = Fira_Sans({
   weight: ["400", "500", "600", "700"],
@@ -38,6 +40,15 @@ const page = () => {
       url: "/research/intoroduction-to-apollo",
       isborder: false,
     },
+    // {
+    //   title:
+    //     "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
+    //   slug: "5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
+    //   desc: "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
+    //   image: business,
+    //   url: "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
+    //   isborder: false,
+    // },
   ];
   return (
     <div className="bg-black">
@@ -58,7 +69,10 @@ const page = () => {
             >
               Editor’s Picks
             </h4>
-            <div className="mt-5 border-b border-[#636363]">
+            <Link
+              href={"/research/intoroduction-to-athena"}
+              className="mt-5 border-b border-[#636363]"
+            >
               <h5
                 className={`font-medium text-[#C9C9C9] text-[20px] ${firaSans.className}`}
               >
@@ -69,8 +83,11 @@ const page = () => {
                 managers and engineering leads make faster, well-informed
                 decisions in product development.
               </p>
-            </div>
-            <div className="mt-5 border-b border-[#636363]">
+            </Link>
+            <Link
+              href={"/research/intoroduction-to-artimes"}
+              className="mt-5 border-b border-[#636363]"
+            >
               <h5
                 className={`font-medium text-[#C9C9C9] text-[20px] ${firaSans.className}`}
               >
@@ -81,8 +98,8 @@ const page = () => {
                 delays and dissatisfaction. ARTUS aims to bridge this gap by
                 ensuring that outputs are
               </p>
-            </div>
-            <div className="mt-5">
+            </Link>
+            <Link href={"/research/intoroduction-to-apollo"} className="mt-5">
               <h5
                 className={`font-medium text-[#C9C9C9] text-[20px] ${firaSans.className}`}
               >
@@ -93,7 +110,7 @@ const page = () => {
                 everything with simple conversations. Track progress, create
                 reports, and
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
