@@ -38,17 +38,17 @@ const page = () => {
       desc: "Say goodbye to tedious project management—Apollo lets you handle everything with simple conversations. Track progress, create reports, and transform teamwork effortlessly with this game-changing tool! ",
       image: apollo,
       url: "/research/intoroduction-to-apollo",
+      isborder: true,
+    },
+    {
+      title:
+        "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
+      slug: "5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
+      desc: "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
+      image: business,
+      url: "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
       isborder: false,
     },
-    // {
-    //   title:
-    //     "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
-    //   slug: "5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
-    //   desc: "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
-    //   image: business,
-    //   url: "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
-    //   isborder: false,
-    // },
   ];
   return (
     <div className="bg-black">
