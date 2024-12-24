@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import logo from "@/assets/images/Artus-logo.png";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -19,6 +20,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Artus",
   description: "Automate product development",
+  openGraph: {
+    images: logo.src,
+  },
 };
 
 export default function RootLayout({ children }) {
