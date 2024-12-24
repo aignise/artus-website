@@ -29,7 +29,7 @@ export async function generateMetadata() {
         "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
       images: [
         {
-          url: currentBusiness,
+          url: "/assets/images/current-business.png",
           width: 800,
           height: 600,
           alt: "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
@@ -43,7 +43,7 @@ export async function generateMetadata() {
         "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
       description:
         "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
-      images: [currentBusiness],
+      images: ["/assets/images/current-business.png"],
     },
   };
 }
