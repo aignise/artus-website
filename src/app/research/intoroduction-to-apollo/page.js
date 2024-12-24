@@ -23,6 +23,35 @@ const firaSans = Fira_Sans({
   subsets: ["latin"],
 });
 
+export async function generateMetadata() {
+  return {
+    title: "Introduction to Apollo",
+    description:
+      "Say goodbye to tedious project management—Apollo lets you handle everything with simple conversations. Track progress, create reports, and transform teamwork effortlessly with this game-changing tool!",
+    openGraph: {
+      title: "Introduction to Apollo",
+      description:
+        "Say goodbye to tedious project management—Apollo lets you handle everything with simple conversations. Track progress, create reports, and transform teamwork effortlessly with this game-changing tool!",
+      images: [
+        {
+          url: apolloBg.src,
+          width: 800,
+          height: 600,
+          alt: "Introduction to Apollo",
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Introduction to Apollo",
+      description:
+        "Say goodbye to tedious project management—Apollo lets you handle everything with simple conversations. Track progress, create reports, and transform teamwork effortlessly with this game-changing tool!",
+      images: [apolloBg.src],
+    },
+  };
+}
+
 const page = () => {
   return (
     <div className="bg-black w-full">
@@ -239,7 +268,7 @@ const page = () => {
             >
               <Image src={athenaBot} alt="artimes" className="rounded-t-2xl" />
               <p className="text-white text-base md:text-xl font-semibold my-5 text-center">
-                Introduction to Athena
+                Introduction to Apollo
               </p>
             </Link>
           </div>

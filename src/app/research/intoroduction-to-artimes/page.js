@@ -21,6 +21,35 @@ const firaSans = Fira_Sans({
   subsets: ["latin"],
 });
 
+export async function generateMetadata() {
+  return {
+    title: "Introduction to Artemis",
+    description:
+      "Traditional development methods often fall short, leading to delays and dissatisfaction. ARTUS aims to bridge this gap by ensuring that outputs are fully aligned with client needs, thereby increasing satisfaction and reducing project completion times.",
+    openGraph: {
+      title: "Introduction to Artemis",
+      description:
+        "Traditional development methods often fall short, leading to delays and dissatisfaction. ARTUS aims to bridge this gap by ensuring that outputs are fully aligned with client needs, thereby increasing satisfaction and reducing project completion times.",
+      images: [
+        {
+          url: artimes.src,
+          width: 800,
+          height: 600,
+          alt: "Introduction to Artemis",
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Introduction to Artemis",
+      description:
+        "Traditional development methods often fall short, leading to delays and dissatisfaction. ARTUS aims to bridge this gap by ensuring that outputs are fully aligned with client needs, thereby increasing satisfaction and reducing project completion times.",
+      images: [artimes.src],
+    },
+  };
+}
+
 const page = () => {
   return (
     <div className="bg-black w-full">
@@ -188,7 +217,7 @@ const page = () => {
             >
               <Image src={athenaBot} alt="artimes" className="rounded-t-2xl" />
               <p className="text-white text-base md:text-xl font-semibold my-5 text-center">
-                Introduction to Athena
+                Introduction to Artemis
               </p>
             </Link>
           </div>

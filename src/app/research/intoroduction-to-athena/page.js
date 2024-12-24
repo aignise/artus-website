@@ -20,6 +20,35 @@ const firaSans = Fira_Sans({
   subsets: ["latin"],
 });
 
+export async function generateMetadata() {
+  return {
+    title: "Introduction to Athena",
+    description:
+      "Athena by ARTUS is your ultimate brainstorming ally, helping managers and engineering leads make faster, well-informed decisions in product development. Navigate challenges with confidence and stay ahead in the game.",
+    openGraph: {
+      title: "Introduction to Athena",
+      description:
+        "Athena by ARTUS is your ultimate brainstorming ally, helping managers and engineering leads make faster, well-informed decisions in product development. Navigate challenges with confidence and stay ahead in the game.",
+      images: [
+        {
+          url: athena.src,
+          width: 800,
+          height: 600,
+          alt: "Introduction to Athena",
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Introduction to Athena",
+      description:
+        "Athena by ARTUS is your ultimate brainstorming ally, helping managers and engineering leads make faster, well-informed decisions in product development. Navigate challenges with confidence and stay ahead in the game.",
+      images: [athena.src],
+    },
+  };
+}
+
 const page = () => {
   return (
     <div className="bg-black w-full">
@@ -278,7 +307,7 @@ const page = () => {
             >
               <Image src={artimes} alt="artimes" className="rounded-t-2xl" />
               <p className="text-white text-base md:text-xl font-semibold my-5 text-center">
-                Introduction to Artemis
+                Introduction to Athena
               </p>
             </Link>
           </div>
