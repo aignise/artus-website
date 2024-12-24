@@ -1,6 +1,7 @@
 // import localFont from "next/font/local";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -24,6 +25,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className}`}>{children}</body>
+      <Script
+        id="vtag-ai-js"
+        async
+        src="https://r2.leadsy.ai/tag.js"
+        data-pid="12N5pyFBFDCXC5zTQ"
+        data-version="062024"
+      />
     </html>
   );
 }

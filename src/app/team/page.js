@@ -71,7 +71,7 @@ const page = () => {
                   <h5 className="font-bold text-xl 2xl1:text-[22px] xl1:text-[24px] my-2">
                     Ashrey Ignise R
                   </h5>
-                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 xl1:min-h-32">
+                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 lg:min-h-40">
                     On a mission to empower engineers, entrepreneurs, and
                     scientists around the world, Ashrey specializes in building
                     memorable brands and selling important ideas to the right
@@ -89,10 +89,11 @@ const page = () => {
                       Yash Vahi
                     </h5>
                   </div>
-                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 xl1:min-h-32">
-                    With a deep-rooted passion for Al- driven innovation, Yash
-                    has dedicated his career to driving efficiency,
-                    productivity, and innovation within teams.
+                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 lg:min-h-40">
+                    Combining his deep AI expertise with a passion for
+                    innovation, Yash is driving the democratization of advanced
+                    AI technologies to help individuals unlock the potential to
+                    build single-person unicorns at unprecedented speed.
                   </p>
                 </div>
                 <Image
@@ -111,9 +112,10 @@ const page = () => {
                   </h5>
                 </div>
                 <p className="text-base 2xl:text-lg text-[#5d5d5d]">
-                  With a deep-rooted passion for Al- driven innovation, Yash has
-                  dedicated his career to driving efficiency, productivity, and
-                  innovation within teams.
+                  Combining his deep AI expertise with a passion for innovation,
+                  Yash is driving the democratization of advanced AI
+                  technologies to help individuals unlock the potential to build
+                  single-person unicorns at unprecedented speed.
                 </p>
               </div>
             </div>

@@ -29,7 +29,7 @@ export async function generateMetadata() {
         "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
       images: [
         {
-          url: "/assets/images/current-business.png",
+          url: botCoding.src,
           width: 800,
           height: 600,
           alt: "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
@@ -43,7 +43,7 @@ export async function generateMetadata() {
         "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
       description:
         "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
-      images: ["/assets/images/current-business.png"],
+      images: [botCoding.src],
     },
   };
 }
@@ -759,25 +759,57 @@ const page = () => {
         </p>
         <ul className="text-[#9EC8FF] text-base xl1:text-lg 2xl:text-xl list-disc pl-5 mt-4">
           <li>
-            “Some employees are destroying value. Others are building it. Do you
-            know the difference?” McKinsey & Company (2023)
+            <a
+              target="_blank"
+              href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/some-employees-are-destroying-value-others-are-building-it-do-you-know-the-difference"
+            >
+              “Some employees are destroying value. Others are building it. Do
+              you know the difference?” McKinsey & Company (2023)
+            </a>
           </li>
           <li>
-            “Chaos Report — why this study about IT project management is so
-            unique.” The Story (2024).
-          </li>
-          <li>“The productivity paradox.” David Coveney. (2023)</li>
-          <li>
-            “Software Development Market Insights, 2023.” Forrester’s Developer
-            Survey (2023).
-          </li>
-          <li>
-            “The Hidden Costs of Employee Turnover: A Call to Action.” Crestcom
-            (2024).
+            <a
+              target="_blank"
+              href="https://thestory.is/en/journal/chaos-report/"
+            >
+              “Chaos Report — why this study about IT project management is so
+              unique.” The Story (2024).
+            </a>
           </li>
           <li>
-            “Accelerate State of DevOps Report 2023.” Dora & Google Cloud.
-            (2023)
+            <a
+              target="_blank"
+              href="https://davidcoveney.com/9456/the-productivity-paradox/"
+            >
+              “The productivity paradox.” David Coveney. (2023)
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.forrester.com/report/software-development-market-insights-2023/RES180420"
+            >
+              “Software Development Market Insights, 2023.” Forrester’s
+              Developer Survey (2023).
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://crestcom.com/blog/2024/03/26/the-hidden-costs-of-employee-turnover-a-call-to-action/"
+            >
+              “The Hidden Costs of Employee Turnover: A Call to Action.”
+              Crestcom (2024).
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-2023-accelerate-state-of-devops-report.pdf"
+            >
+              “Accelerate State of DevOps Report 2023.” Dora & Google Cloud.
+              (2023)
+            </a>
           </li>
         </ul>
         <div className={` mt-14 text-2xl md:text-[35px]`}>

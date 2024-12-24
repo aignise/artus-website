@@ -2,7 +2,7 @@ import Articles from "@/components/Articles";
 import athena from "@/assets/images/athena-web.png";
 import artimes from "@/assets/images/artimes-web.png";
 import apollo from "@/assets/images/apollo-web.png";
-import business from "@/assets/images/current-business.png";
+import business from "@/assets/images/bot-coding.png";
 import Header from "@/components/Header";
 import React from "react";
 import Footer from "@/components/Footer";
@@ -16,6 +16,15 @@ const firaSans = Fira_Sans({
 
 const page = () => {
   const articles = [
+    {
+      title:
+        "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
+      slug: "5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
+      desc: "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
+      image: business,
+      url: "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
+      isborder: true,
+    },
     {
       title: "Introduction to Athena",
       slug: "introduction-to-athena",
@@ -38,15 +47,6 @@ const page = () => {
       desc: "Say goodbye to tedious project management—Apollo lets you handle everything with simple conversations. Track progress, create reports, and transform teamwork effortlessly with this game-changing tool! ",
       image: apollo,
       url: "/research/intoroduction-to-apollo",
-      isborder: true,
-    },
-    {
-      title:
-        "5 Inefficiencies in Your Current Business Workflows That Artus Can Solve",
-      slug: "5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
-      desc: "Discover how workflow challenges like missed deadlines, failed IT projects, and wasted employee time amongst other things, are holding organizations back—and how Artus can be your solution.",
-      image: business,
-      url: "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve",
       isborder: false,
     },
   ];
@@ -65,23 +65,26 @@ const page = () => {
           </div>
           <div className="w-full lg:w-2/5 md:pl-8 border-0 md:border-l border-[#676767]">
             <h4
-              className={`text-white font-medium text-[20px] ${firaSans.className}`}
+              className={`text-white font-medium text-[20px] mb-4 ${firaSans.className}`}
             >
               Editor’s Picks
             </h4>
             <Link
-              href={"/research/intoroduction-to-athena"}
+              href={
+                "/research/5-inefficiencies-in-your-current-business-workflows-that-artus-can-solve"
+              }
               className="mt-5 border-b border-[#636363]"
             >
               <h5
                 className={`font-medium text-[#C9C9C9] text-[20px] ${firaSans.className}`}
               >
-                Introduction to Athena
+                5 Inefficiencies in Your Current Business Workflows That Artus
+                Can Solve
               </h5>
               <p className="text-[15px] text-[#909090] py-4">
-                Athena by ARTUS is your ultimate brainstorming ally, helping
-                managers and engineering leads make faster, well-informed
-                decisions in product development.
+                Discover how workflow challenges like missed deadlines, failed
+                IT projects, and wasted employee time amongst other things, are
+                holding organizations back—and how Artus can be your solution.
               </p>
             </Link>
             <Link
