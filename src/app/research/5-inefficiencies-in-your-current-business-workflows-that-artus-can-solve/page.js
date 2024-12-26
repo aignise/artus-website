@@ -253,7 +253,7 @@ const page = () => {
         <h2
           className={`text-white  font-bold text-[18px] md:text-[24px] mt-10 pb-4`}
         >
-          3. Failure to Align with Client Expectations
+          3. Lack of Project Planning and Foresight
         </h2>
         <p
           className={`text-[#E6E6E6] text-[16px] md:text-lg mt-4 xl1:text-xl `}
@@ -424,7 +424,7 @@ const page = () => {
           professional.  
         </p>
         <h2
-          className={`text-white  font-bold text-[16px] md:text-[20px] md:text-[26px] mt-10 pb-4`}
+          className={`text-white  font-bold text-[16px] md:text-[20px] mt-10 pb-4`}
         >
           Practical Use Case: Full-Stack Web Development Project with ARTUS
         </h2>
@@ -515,13 +515,11 @@ const page = () => {
         </ul>
         <p className={`text-[#9A9A9A] text-lg mt-4 xl1:text-xl `}>Challenges</p>
         <ul className="text-[#9A9A9A] text-base xl1:text-lg 2xl:text-xl list-disc pl-5">
-          <li className="my-3">Rework and revisions based on feedback.</li>
+          <li className="my-3">Ensuring security and performance.</li>
           <li className="my-3">
-            Debugging and fixing front-end bugs that emerge during development.
+            Debugging backend code and handling server issues.
           </li>
-          <li className="my-3">
-            Managing dependencies and version control issues.
-          </li>
+          <li className="my-3">Allocating resources to meet tight deadlines</li>
         </ul>
         <h2
           className={`text-white  font-bold text-[16px] md:text-[20px] mt-8 pb-4`}
@@ -537,7 +535,6 @@ const page = () => {
         </ul>
         <p className={`text-[#9A9A9A] text-lg mt-4 xl1:text-xl `}>Challenges</p>
         <ul className="text-[#9A9A9A] text-base xl1:text-lg 2xl:text-xl list-disc pl-5">
-          <li className="my-3">Rework and revisions based on feedback.</li>
           <li className="my-3">Manual QA is time-consuming.</li>
           <li className="my-3">
             Delays caused by last-minute issues that require reworking code.
@@ -566,7 +563,7 @@ const page = () => {
         <h2
           className={`text-white  font-bold text-[18px] md:text-[22px]  mt-4 pb-4`}
         >
-          Traditional Workflow (Without ARTUS):
+          Traditional Workflow (With ARTUS):
         </h2>
         <h2
           className={`text-white  font-bold text-[18px] md:text-[24px] mt-10 pb-4`}
