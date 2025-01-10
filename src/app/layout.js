@@ -1,19 +1,7 @@
-// import localFont from "next/font/local";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import logo from "@/assets/images/Artus-logo.png";
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +24,18 @@ export default function RootLayout({ children }) {
         data-pid="12N5pyFBFDCXC5zTQ"
         data-version="062024"
       />
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-EH8HW1Y8J7"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EH8HW1Y8J7');
+        `}
+      </Script>
     </html>
   );
 }
