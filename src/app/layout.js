@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import logo from "@/assets/images/Artus-logo.png";
+import logo from "@/assets/images/black-round-artus.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 

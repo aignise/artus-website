@@ -179,7 +179,7 @@ const page = () => {
                   <span>Tiktok</span>
                 </Link>
                 <Link
-                  href="https://discord.gg/u54UXEc3"
+                  href="https://discord.gg/hvJArcbmCS"
                   target="_blank"
                   className="flex flex-col items-center justify-center"
                 >
