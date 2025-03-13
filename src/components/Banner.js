@@ -20,14 +20,11 @@ const Banner = () => {
       />
       <div className="relative z-10">
         <h1 className="px-5 sm:px-0 sm:w-3/4 mx-auto lg:w-full text-white font-semibold text-[31px] sm:text-[50px] xl1::text-[52px] 2xl:text-[54px] leading-snug sm:leading-[60px] sm:text-center pt-8 sm:pt-20 tracking-tight">
-          Automating Software Development <br />{" "}
-          <span className="text-[25px] sm:text-[50px] xl1::text-[52px] 2xl:text-[54px] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] inline-block text-transparent bg-clip-text">
-            for the Next Generation
-          </span>
+          Automated Software Development <br />{" "}
         </h1>
         <p className="w-full px-5 sm:px-0 sm:w-11/12 mx-auto lg:w-full text-white text-[17px] sm:text-[19px] xl1::text-[19px] 2xl:text-[21px] sm:text-center my-8 sm:my-12">
           From idea to execution, Artus empowers you with AI Workers to build
-          faster, smarter, <br className="hidden lg:block" />
+          faster, smarter <br className="hidden lg:block" />
           and at a fraction of the cost.
         </p>
         <div className="flex gap-3 px-5 sm:px-0 sm:justify-center mb-8">
