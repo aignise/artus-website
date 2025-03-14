@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import logo from "@/assets/images/Artus.png";
+import logo from "@/assets/images/ArtusLogo.svg";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
@@ -14,7 +14,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#303030] text-white">
+    <header className="bg-transparent text-white">
       <div className="flex justify-between items-center py-4 px-6">
         <div className="text-2xl font-bold">
           <Link href="/">
@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className={`hidden lg:flex space-x-8 items-center`}>
+        <nav className={`hidden lg:flex space-x-8 items-center text-[22px]`}>
           <Link
             href="/"
             className={`${
