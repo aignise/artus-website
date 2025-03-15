@@ -38,7 +38,7 @@ const ProductTeam = () => {
         <Image className="absolute -top-[400px] scale-[.7]" src={Light1} />
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6">
           <div className="flex items-center gap-3 justify-center my-10 sm:my-10">
-            <span className="font-inter font-semibold text-[54.36px] leading-[100%] tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[54.36px] tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
               HiveMind Coding
             </span>
           </div>
@@ -54,7 +54,7 @@ const ProductTeam = () => {
         </div>
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6 pb-4 ">
           <div className="flex items-center gap-3 justify-center my-10">
-            <span className="font-inter font-semibold text-[54.36px] leading-[100%] tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[54.36px]  tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
               HiveMind Planning
             </span>
           </div>

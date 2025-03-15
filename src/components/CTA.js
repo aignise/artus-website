@@ -71,7 +71,7 @@ const CTA = () => {
         alt="polygon"
         className="w-full absolute -top-[480px]"
       />
-      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[70%] mx-auto relative z-10 mt-[680px]">
+      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 mt-[680px]">
         <h1 className="text-white text-center font-inter font-semibold text-[93.907px] leading-[83.992px] tracking-[-6.456px] ">
           Ideate, Build, and Deploy
           <br className="hidden sm:block" /> at Impossible Speed
@@ -82,8 +82,8 @@ const CTA = () => {
             <Image className="w-[201px]" src={logo} />
           </span>
         </p>
-        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 xl2:w-full 2xl:w-11/12 mx-auto lg:mt-56">
-          <div className="flex items-start justify-end gap-8 lg:gap-4 2xl:gap-40">
+        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 xl2:w-full 2xl:w-[73%] mx-auto lg:mt-96">
+          <div className="flex items-start justify-end gap-8 lg:gap-4 2xl:gap-40 ml-[72px]">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-4 items-center">
               <span className="text-white font-inter font-semibold text-[100px]  tracking-[-4.532px]">
                 10x
@@ -160,18 +160,18 @@ const CTA = () => {
             </div>
           </div> */}
         </div>
-        <div className="border-y border-[#BEBEBE] py-10 sm:py-16 mt-56">
+        <div className="py-10 sm:py-16 mt-56">
           <h3 className="text-white text-center font-inter font-semibold text-[77.931px] leading-[88.931px] tracking-[-1.71px] ">
             What Our Customers Are Saying
           </h3>
           <div>
-            <div className="mt-10 sm:mt-20">
+            <div className="mt-10 sm:mt-28">
               {/* Upper Section */}
               <Slider {...settings} className="client-slider">
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-center gap-8 items-center">
+                      <div className="flex flex-col justify-between h-[380px] w-[80%] mx-auto gap-8 items-center">
                         <p className="text-white text-center font-inter font-semibold text-[32px] leading-[51.4px]">
                           {item.review}
                         </p>
@@ -209,7 +209,7 @@ const CTA = () => {
                 -John, CEO of DevPro
               </p>
             </div> */}
-            <div className="flex gap-3 px-5 sm:px-0 sm:justify-center mt-56">
+            <div className="flex gap-3 px-5 sm:px-0 sm:justify-center mt-56 mb-24">
               <Link
                 href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
                 target="_blank"

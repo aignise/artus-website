@@ -36,7 +36,7 @@ const DeveloperSection = () => {
       <div className="pt-32 pb-16 mx-auto w-[90%]">
         <div className="sm:text-center">
           <h4
-            className="text-center font-inter font-bold text-[84px] leading-[83.992px] tracking-[-6.456px] 
+            className="text-center font-inter font-bold text-[84px]  tracking-[-6.456px] 
 shadow-[0px_0px_8px_rgba(0,0,0,0.45)] 
 bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent"
           >
