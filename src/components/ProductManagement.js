@@ -60,7 +60,7 @@ bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent"
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-0 lg:justify-between justify-between">
-            <div className=" w-[25%]">
+            <div className="lg:w-[27%] xlu:w-[26%] xl1:w-[25%]">
               <div className="">
                 <div className="">
                   <h3
@@ -75,12 +75,12 @@ bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent"
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-[70%]">
+            <div className="w-full lg:w-[70%] xl1:w-[70%]">
               <Image src={Specificity} alt="Specificity" className="w-full" />
             </div>
           </div>
           <div className="relative flex flex-col lg:flex-row items-center gap-5 lg:gap-0 lg:justify-between justify-between mt-8">
-            <div className="w-full lg:w-[100%]">
+            <div className="xxl:w-[100%] 2xl:w-[90%] xl1:w-[84%] xlu:w-[84%] lg:w-[82%]">
               <Image src={DynamicD} alt="Specificity" className="w-full" />
             </div>
             <div className="absolute right-[500px] top-[50px] text-right">
@@ -102,13 +102,12 @@ bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent"
             <Image className="absolute -top-28" src={Light3} />
             <div className="w-[29%]">
               <div>
-              <h3 className="font-inter font-semibold text-[62px] leading-[90.854px] tracking-[-2.113px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent shadow-[0px_9.391px_9.391px_rgba(0,0,0,0.25)]">
-                Visualization
-              </h3>
-              <p className="text-white font-inter font-medium text-[32px] leading-[45.6px] tracking-[-0.684px]">
-                Get AI-generated  schematics like 
-                Database ERD
-              </p>
+                <h3 className="font-inter font-semibold text-[62px] leading-[90.854px] tracking-[-2.113px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent shadow-[0px_9.391px_9.391px_rgba(0,0,0,0.25)]">
+                  Visualization
+                </h3>
+                <p className="text-white font-inter font-medium text-[32px] leading-[45.6px] tracking-[-0.684px]">
+                  Get AI-generated schematics like Database ERD
+                </p>
               </div>
             </div>
             <div className="w-[29%]">
@@ -116,9 +115,7 @@ bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent"
                 Sprints
               </h3>
               <p className="text-white font-inter font-medium text-[32px] leading-[45.6px] tracking-[-0.684px]">
-                Phase-wise
-                 execution of 
-                you ideas for agility  agility
+                Phase-wise execution of you ideas for agility agility
               </p>
             </div>
             <div className="w-[29%]">
@@ -126,8 +123,7 @@ bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent"
                 AI Tasks
               </h3>
               <p className="text-white font-inter font-medium text-[32px] leading-[45.6px] tracking-[-0.684px]">
-                Pre-prompted  tasks-generated 
-                for AI Coders
+                Pre-prompted tasks-generated for AI Coders
               </p>
             </div>
           </div>

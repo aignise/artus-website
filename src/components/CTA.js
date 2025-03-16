@@ -69,9 +69,9 @@ const CTA = () => {
       <Image
         src={Reactangle}
         alt="polygon"
-        className="w-full absolute -top-[480px]"
+        className="w-full absolute lg:-top-[410px] xlu:-top-[440px] xl1:-top-[460px] 2xl:-top-[480px] "
       />
-      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 mt-[680px]">
+      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 xl1:mt-[680px] xlu:mt-[640px] lg:mt-[620px]">
         <h1 className="text-white text-center font-inter font-semibold text-[93.907px] leading-[83.992px] tracking-[-6.456px] ">
           Ideate, Build, and Deploy
           <br className="hidden sm:block" /> at Impossible Speed
@@ -82,8 +82,8 @@ const CTA = () => {
             <Image className="w-[201px]" src={logo} />
           </span>
         </p>
-        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 xl2:w-full 2xl:w-[73%] mx-auto lg:mt-96">
-          <div className="flex items-start justify-end gap-8 lg:gap-4 2xl:gap-40 ml-[72px]">
+        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 xl2:w-full 2xl:w-[77%] xxl:w-[73%] mx-auto lg:mt-96">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center 2xl:justify-end gap-8 lg:gap-[124px] xlu:gap-[130px] xl1:gap-36 2xl:gap-40 ml-[72px]">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-4 items-center">
               <span className="text-white font-inter font-semibold text-[100px]  tracking-[-4.532px]">
                 10x
@@ -91,11 +91,11 @@ const CTA = () => {
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[14px] sm:h-[33px] 2xl:h-[94px] w-auto rotate-180"
+                className="h-[14px] sm:h-[33px] xlu:h-[56px] xl1:h-[65px] 2xl:h-[94px] w-auto rotate-180"
               />
             </div>
-            <div>
-              <h4 className="text-white font-inter font-bold text-[56px] leading-[42.617px] tracking-[-1.12px]">
+            <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
+              <h4 className="text-white font-inter font-bold text-[56px] xl1:leading-[42.617px] xlu:leading-[54.617px] tracking-[-1.12px]">
                 Faster Project Completion
               </h4>
               <p className="text-white font-inter font-normal text-[39.886px] leading-[61.568px] mt-8">
@@ -111,7 +111,7 @@ const CTA = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start justify-start gap-8 lg:gap-4 2xl:gap-[230px] mt-56">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center xl1:gap-[234px] justify-start gap-8 lg:gap-[240px] xlu:gap-[250px] 2xl:gap-[230px] mt-56">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-4 items-center">
               <span className="text-white font-inter font-semibold text-[100px]  tracking-[-4.532px]">
                 50%
@@ -119,10 +119,10 @@ const CTA = () => {
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[14px] sm:h-[33px] 2xl:h-[94px] w-auto"
+                className="h-[14px] sm:h-[33px] xlu:h-[56px] xl1:h-[65px] 2xl:h-[94px] w-auto"
               />
             </div>
-            <div>
+            <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
               <h4 className="text-white font-inter font-bold text-[56px] leading-[42.617px] tracking-[-1.12px]">
                 Development Cost
               </h4>
@@ -171,7 +171,7 @@ const CTA = () => {
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-between h-[380px] w-[80%] mx-auto gap-8 items-center">
+                      <div className="flex flex-col justify-between lg:h-[540px] xlu:h-[460px] xl1:h-[420px] 2xl:h-[400px] xxl:h-[380px] w-[80%] mx-auto gap-8 items-center">
                         <p className="text-white text-center font-inter font-semibold text-[32px] leading-[51.4px]">
                           {item.review}
                         </p>
