@@ -28,21 +28,20 @@ import Link from "next/link";
 const DeveloperSection = () => {
   return (
     <div className="relative mx-auto ">
-      <Image className="absolute -left-4 -top-56 z-[0]" src={BackgroundArrow} />
+      <Image
+        className="absolute sm:-left-4 top-20 sm:-top-72 md:-top-56 z-[0]"
+        src={BackgroundArrow}
+      />
       <Image
         className="absolute -top-[460px] left-[370px] 2xl:left-[270px] xl:left-[110px] xl1:left-[70px] lg:scale-[.7] md:left-[-70px] z-[0] lg:block hidden"
         src={Light6}
       />
-      <div className="pt-32 pb-16 mx-auto w-[90%]">
+      <div className="pt-72 sm:pt-32 md:pt-40 sm:pb-6 md:pb-16 mx-auto w-[90%]">
         <div className="sm:text-center">
-          <h4
-            className="text-center font-inter font-bold text-[84px]  tracking-[-6.456px] 
-shadow-[0px_0px_8px_rgba(0,0,0,0.45)] 
-bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent"
-          >
+          <h4 className="text-center font-inter font-bold text-[56px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] tracking-[-3px] sm:tracking-[-6.456px] shadow-[0px_0px_8px_rgba(0,0,0,0.45)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
             HiveMind Coding
           </h4>
-          <p className="text-white text-center font-inter font-medium text-[32px] leading-[61.568px] tracking-[-0.684px]">
+          <p className="text-white text-center font-inter font-medium sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[61.568px] tracking-[-0.684px]">
             Boot up an army of AI coders to write enterprise-grade software for
             you.
           </p>
@@ -50,7 +49,7 @@ bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent"
         <Image
           src={HivemindCodingHero}
           alt="HivemindCodingHero"
-          className="w-full scale-110 transform-gpu mt-28"
+          className="w-full scale-110 transform-gpu mt-12 sm:mt-28"
         />
       </div>
       <div className="relative lg:w-[100%] w-[100%] mx-auto">
@@ -89,88 +88,88 @@ bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent"
           alt="circle"
           className="absolute left-2/4 -translate-x-1/2 bottom-0"
         />
-        <div className="md:pt-10 pb-16 mx-auto relative z-10 md:w-[85%] sm:w-[85%] w-[85%] mt-36">
-          <div className="sm:text-center">
-            <h4
-              className="text-center font-inter font-semibold text-[84px] leading-[88.931px] tracking-[-2.113px] 
-shadow-[2.461px_4.923px_9.846px_rgba(0,0,0,0.15)] 
-bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent"
-            >
+        <div className="flex flex-col items-center md:pt-10 pb-16 mx-auto relative z-10 md:w-[85%] sm:w-[85%] w-[85%] mt-20 sm:mt-36">
+          <div className="text-center">
+            <h4 className="text-center font-inter font-semibold text-[50px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] sm:leading-[88.931px] tracking-[-2.113px] shadow-[2.461px_4.923px_9.846px_rgba(0,0,0,0.15)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
               Unlock Unparalleled{" "}
             </h4>
-            <h3 className="text-white font-inter font-semibold text-[84px] leading-[88.931px] tracking-[-2.113px]">
+            <h3 className="text-white font-inter font-semibold text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[88.931px] tracking-[-2.113px]">
               Developer Productivity{" "}
             </h3>
-            <p className="text-white text-center font-inter font-semibold text-[32px] leading-[45.6px] tracking-[-0.684px] mt-20 mb-36">
+            <p className="text-white text-center font-inter font-semibold sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[45.6px] tracking-[-0.684px] mt-8 sm:mt-20 mb-8 sm:mb-36">
               Traditional Processes Are History – <br />
               Streamline Your Workflow and Stop the Resource Drain!
             </p>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-2 mx-auto gap-x-24 gap-y-10 mb-10 w-[100%]">
-            <Image
-              className="absolute top-[500px] -left-0 lg:block hidden"
-              src={Light7}
-            />
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Endpoint Creation
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Integration-ready  endpoints to connect with {" "}
-                frontend
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Database Building
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Scalable & secure  databases for enterprises
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Task Executions
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Ability to breakdown and  execute all the tasks in your{" "}
-                 project
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Schematics Generation
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Visualize code logic with  flowcharts
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Natural Language Edits
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Make changes to your  code in simple english
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[#09CAFF] font-inter font-semibold text-[64px] leading-[53.152px] tracking-[-1.28px] capitalize">
-                Auto-Documentation
-              </h4>
-              <p className="text-white font-inter font-normal text-[32px] leading-[45.6px] tracking-[-0.684px] pt-4">
-                Code explainations &  documentation provided {" "}
-                automatically
-              </p>
+          <div className="w-full">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid lg:grid-cols-2 grid-cols-2 gap-x-16 sm:gap-x-24 gap-y-6 sm:gap-y-10 mb-10">
+                <Image
+                  className="absolute top-[500px] -left-0 lg:block hidden"
+                  src={Light7}
+                />
+                <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Endpoint Creation
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Integration-ready endpoints to connect with frontend
+                </p>
+              </div>
+              <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Database Building
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Scalable & secure databases for enterprises
+                </p>
+              </div>
+              <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Task Executions
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Ability to breakdown and execute all the tasks in your project
+                </p>
+              </div>
+              <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Schematics Generation
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Visualize code logic with flowcharts
+                </p>
+              </div>
+              <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Natural Language Edits
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Make changes to your code in simple english
+                </p>
+              </div>
+              <div>
+                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                  Auto-Documentation
+                </h4>
+                <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
+                  Code explainations & documentation provided automatically
+                </p>
+              </div>
+                {/* Other grid items... */}
+              </div>
             </div>
           </div>
-          <div className="mt-72 mx-auto">
-            <div className="flex justify-between items-center w-full mb-16">
-              <p className="text-white font-inter font-medium text-[32px] leading-[53.6px] tracking-[-0.684px]"
-              >
-                Your Ai+Human teams's lead engineer for 
-                unparalleled <br />developer productivity
+          <div className="mt-16 sm:mt-40 md:mt-72 mx-auto">
+            <div className="flex justify-between items-center w-full mb-4">
+              <p className="text-white font-inter font-medium md:text-[17px] lg:text-[24px] xlu:text-[32px] md:leading-[24px] lg:leading-[45.6px] tracking-[-0.684px]">
+                Your Ai+Human teams's lead engineer for unparalleled developer
+                productivity
               </p>
-              <Image className="w-[404.875px]" src={ArtemisBlueLogo} />
+              <Image
+                className="md:w-[160px] lg:w-[300px] xlu:w-[404.875px]"
+                src={ArtemisBlueLogo}
+              />
             </div>
             <Image
               src={ArtemisScreenImage}

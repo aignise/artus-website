@@ -12,7 +12,6 @@ module.exports = {
         xxl: "1720px",
         xl2: "1450px",
         xl1: "1390px",
-        xl2: "1450px",
         xlu: "1300px",
       },
       colors: {

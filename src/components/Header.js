@@ -14,7 +14,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-transparent text-white">
+    <header className="relative bg-transparent text-white">
       <div className="flex justify-between items-center py-4 px-6">
         <div className="text-2xl font-bold">
           <Link href="/">

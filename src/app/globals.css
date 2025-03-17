@@ -62,3 +62,9 @@
     white
   );
 }
+
+@media only screen and (max-width: 768px) {
+  .for-flex-row {
+    flex-direction: row !important;
+  }
+}

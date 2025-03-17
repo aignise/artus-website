@@ -64,72 +64,70 @@ const CTA = () => {
   };
 
   return (
-    <div className="bg-[#6150FF] relative">
+    <div className="bg-[#6150FF] relative pb-16 sm:pb-0">
       <Image src={polygon} alt="polygon" className="w-full absolute" />
       <Image
         src={Reactangle}
         alt="polygon"
-        className="w-full absolute lg:-top-[410px] xlu:-top-[440px] xl1:-top-[460px] 2xl:-top-[480px] "
+        className="w-full absolute -top-[110px] sm:-top-[210px] md:-top-[250px] lg:-top-[340px] xlu:-top-[430px] xl1:-top-[460px] 2xl:-top-[480px] "
       />
-      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 xl1:mt-[680px] xlu:mt-[640px] lg:mt-[620px]">
-        <h1 className="text-white text-center font-inter font-semibold text-[93.907px] leading-[83.992px] tracking-[-6.456px] ">
-          Ideate, Build, and Deploy
-          <br className="hidden sm:block" /> at Impossible Speed
+      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 xl1:mt-[680px] xlu:mt-[640px] lg:mt-[560px] md:mt-[390px] sm:mt-[350px] mt-[180px]">
+        <h1 className="text-white text-center font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px] leading-[50px] sm:leading-[83.992px] tracking-[-3px] lg:tracking-[-6.456px] ">
+          Ideate, Build, and Deploy at Impossible Speed
         </h1>
-        <p className="text-white font-inter font-semibold text-[48px] leading-[61.568px] mt-20 flex items-center justify-center gap-4">
+        <p className="text-white font-inter sm:whitespace-nowrap font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[38px] xlu:text-[42px] sm:leading-[61.568px] mt-8 sm:mt-10 md:mt-20 flex items-center justify-center gap-4">
           Join the future of product development with{" "}
           <span className="">
-            <Image className="w-[201px]" src={logo} />
+            <Image className="md:w-[120px] lg:w-[201px]" src={logo} />
           </span>
         </p>
-        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 xl2:w-full 2xl:w-[77%] xxl:w-[73%] mx-auto lg:mt-96">
-          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center 2xl:justify-end gap-8 lg:gap-[124px] xlu:gap-[130px] xl1:gap-36 2xl:gap-40 ml-[72px]">
-            <div className="w-12 sm:w-32 lg:w-28 flex gap-4 items-center">
-              <span className="text-white font-inter font-semibold text-[100px]  tracking-[-4.532px]">
+        <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 w-[80%] sm:w-full xl2:w-full 2xl:w-[77%] xxl:w-[73%] mx-auto lg:mt-96">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center 2xl:justify-end gap-[55px] sm:gap-[48px] md:gap-[50px] lg:gap-[124px] xlu:gap-[130px] xl1:gap-36 2xl:gap-40 ml-[25px] sm:ml-[72px]">
+            <div className="w-12 sm:w-32 lg:w-28 flex gap-3 sm:gap-4 items-center">
+              <span className="text-white font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xlu:text-[80px]  tracking-[-4.532px]">
                 10x
               </span>
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[14px] sm:h-[33px] xlu:h-[56px] xl1:h-[65px] 2xl:h-[94px] w-auto rotate-180"
+                className="h-[28px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto rotate-180"
               />
             </div>
             <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
-              <h4 className="text-white font-inter font-bold text-[56px] xl1:leading-[42.617px] xlu:leading-[54.617px] tracking-[-1.12px]">
+              <h4 className="text-white font-inter font-bold text-[20px] sm:text-[24px] md:text-[34px] lg:text-[44px] xlu:text-[52px] xl1:leading-[42.617px] xlu:leading-[54.617px] tracking-[-1.12px]">
                 Faster Project Completion
               </h4>
-              <p className="text-white font-inter font-normal text-[39.886px] leading-[61.568px] mt-8">
+              <p className="text-white font-inter font-normal text-[16px] sm:text-[20px] md:text-[26px] lg:text-[30px] xlu:text-[34.886px] lg:leading-[56px] xlu:leading-[61.568px] md:mt-8">
                 Our users build software{" "}
-                <span className="text-black opacity-70 font-inter font-semibold text-[53.568px] leading-[61.568px]">
+                <span className="text-black opacity-70 font-inter font-semibold lg:text-[48px] xlu:text-[53.568px] md:leading-[61.568px]">
                   2x
                 </span>{" "}
                 to{" "}
-                <span className="text-black opacity-70 font-inter font-semibold text-[53.568px] leading-[61.568px]">
+                <span className="text-black opacity-70 font-inter font-semibold lg:text-[48px] xlu:text-[53.568px] md:leading-[61.568px]">
                   10x
                 </span>{" "}
                 faster than through traditional development methods.
               </p>
             </div>
           </div>
-          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center xl1:gap-[234px] justify-start gap-8 lg:gap-[240px] xlu:gap-[250px] 2xl:gap-[230px] mt-56">
-            <div className="w-12 sm:w-32 lg:w-28 flex gap-4 items-center">
-              <span className="text-white font-inter font-semibold text-[100px]  tracking-[-4.532px]">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center justify-start gap-[80px] sm:gap-[85px] md:gap-[90px] lg:gap-[230px] xlu:gap-[250px] xl1:gap-[260px] 2xl:gap-[230px] sm:mt-28 md:mt-56">
+            <div className="w-12 sm:w-32 lg:w-28 flex gap-3 sm:gap-4 items-center">
+              <span className="text-white font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px]  tracking-[-4.532px]">
                 50%
               </span>
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[14px] sm:h-[33px] xlu:h-[56px] xl1:h-[65px] 2xl:h-[94px] w-auto"
+                className="h-[28px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto"
               />
             </div>
             <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
-              <h4 className="text-white font-inter font-bold text-[56px] leading-[42.617px] tracking-[-1.12px]">
+              <h4 className="text-white font-inter font-bold text-[20px] sm:text-[24px] md:text-[34px] lg:text-[44px] xlu:text-[52px] leading-[42.617px] tracking-[-1.12px]">
                 Development Cost
               </h4>
-              <p className="text-white font-inter font-normal text-[39.886px] leading-[61.568px] mt-8">
-                By automating a majority of tasks, you can <br /> reduce costs
-                by up to{" "}
-                <span className="text-black opacity-70 font-inter font-semibold text-[53.568px] leading-[61.568px]">
+              <p className="text-white font-inter font-normal text-[16px] sm:text-[20px] md:text-[26px] lg:text-[30px] xlu:text-[34.886px] lg:leading-[56px] xlu:leading-[61.568px] md:mt-8">
+                By automating a majority of tasks, you can reduce costs by up to{" "}
+                <span className="text-black opacity-70 font-inter font-semibold lg:text-[48px] xlu:text-[53.568px] md:leading-[61.568px]">
                   50%
                 </span>
               </p>
@@ -160,22 +158,22 @@ const CTA = () => {
             </div>
           </div> */}
         </div>
-        <div className="py-10 sm:py-16 mt-56">
-          <h3 className="text-white text-center font-inter font-semibold text-[77.931px] leading-[88.931px] tracking-[-1.71px] ">
+        <div className="py-0 sm:py-16 mt-2 sm:mt-20 md:mt-56">
+          <h3 className="text-white text-center font-inter font-semibold text-[25px] sm:text-[38px] md:text-[51px] lg:text-[64px] xlu:text-[77.931px] leading-[62.931px] sm:leading-[88.931px] tracking-[-1.71px] ">
             What Our Customers Are Saying
           </h3>
           <div>
-            <div className="mt-10 sm:mt-28">
+            <div className="md:mt-28 sm:mt-6 lg:mt-44">
               {/* Upper Section */}
               <Slider {...settings} className="client-slider">
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-between lg:h-[540px] xlu:h-[460px] xl1:h-[420px] 2xl:h-[400px] xxl:h-[380px] w-[80%] mx-auto gap-8 items-center">
-                        <p className="text-white text-center font-inter font-semibold text-[32px] leading-[51.4px]">
+                      <div className="flex flex-col justify-between md:h-[440px] lg:h-[540px] xlu:h-[460px] xl1:h-[420px] 2xl:h-[400px] xxl:h-[380px] w-[90%] mx-auto gap-4 sm:gap-8 items-center">
+                        <p className="text-white text-center font-inter font-semibold text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px] md:leading-[40px] lg:leading-[51.4px]">
                           {item.review}
                         </p>
-                        <p className="text-[rgba(40,11,43,0.86)] text-center font-inter font-semibold text-[36.886px] leading-[59.383px] tracking-[-1.71px]">
+                        <p className="text-[rgba(40,11,43,0.86)] text-center font-inter font-semibold text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px] xlu:text-[34.886px] 2xl:text-[37px] xxl:text-[41px] md:leading-[40px] lg:leading-[51.4px] tracking-[-1.71px]">
                           {item.client}
                         </p>
                       </div>
@@ -209,13 +207,13 @@ const CTA = () => {
                 -John, CEO of DevPro
               </p>
             </div> */}
-            <div className="flex gap-3 px-5 sm:px-0 sm:justify-center mt-56 mb-24">
+            <div className="flex gap-3 px-5 sm:px-0 justify-center mb-0 mt-20 sm:mt-10">
               <Link
                 href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
                 target="_blank"
-                className="flex items-center justify-center gap-2 px-8 py-4 
+                className="flex items-center justify-center gap-2 px-4 sm:px-8 py-3 sm:py-4 
              rounded-[32px] bg-gradient-to-r from-[#09CAFF] to-[#19FE93] 
-             font-inter text-black text-[23.6px] font-semibold leading-[100%] tracking-[-0.04em] 
+             font-inter text-black sm:text-[23.6px] font-semibold leading-[100%] tracking-[-0.04em] 
              sm:text-sm xl1:text-base 2xl:text-lg hover:opacity-90 transition-all"
               >
                 <span>Book a Demo</span>
