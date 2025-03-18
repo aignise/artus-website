@@ -69,28 +69,28 @@ const CTA = () => {
       <Image
         src={Reactangle}
         alt="polygon"
-        className="w-full absolute -top-[110px] sm:-top-[210px] md:-top-[250px] lg:-top-[340px] xlu:-top-[430px] xl1:-top-[460px] 2xl:-top-[480px] "
+        className="w-full absolute -top-[110px] sm:-top-[210px] md:-top-[250px] lg:-top-[330px] xlu:-top-[430px] xl1:-top-[460px] 2xl:-top-[480px] "
       />
-      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 xl1:mt-[680px] xlu:mt-[640px] lg:mt-[560px] md:mt-[390px] sm:mt-[350px] mt-[180px]">
+      <div className="pt-10 sm:pt-20 px-5 sm:px-0 w-full sm:w-4/5 xl1:w-[90%] mx-auto relative z-10 xl1:mt-[680px] xlu:mt-[640px] lg:mt-[560px] md:mt-[390px] sm:mt-[350px] mt-[100px]">
         <h1 className="text-white text-center font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px] leading-[50px] sm:leading-[83.992px] tracking-[-3px] lg:tracking-[-6.456px] ">
           Ideate, Build, and Deploy at Impossible Speed
         </h1>
-        <p className="text-white font-inter sm:whitespace-nowrap font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[38px] xlu:text-[42px] sm:leading-[61.568px] mt-8 sm:mt-10 md:mt-20 flex items-center justify-center gap-4">
-          Join the future of product development with{" "}
-          <span className="">
+        <p className="text-white text-center font-inter sm:whitespace-nowrap font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[38px] xlu:text-[42px] sm:leading-[61.568px] mt-8 sm:mt-10 md:mt-20 flex items-center justify-center gap-4">
+          Join the future of product development with{" "} Artus
+          {/* <span className="">
             <Image className="md:w-[120px] lg:w-[201px]" src={logo} />
-          </span>
+          </span> */}
         </p>
         <div className="mt-10 sm:mt-24 pb-10 sm:pb-24 w-[80%] sm:w-full xl2:w-full 2xl:w-[77%] xxl:w-[73%] mx-auto lg:mt-96">
-          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center 2xl:justify-end gap-[55px] sm:gap-[48px] md:gap-[50px] lg:gap-[124px] xlu:gap-[130px] xl1:gap-36 2xl:gap-40 ml-[25px] sm:ml-[72px]">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center 2xl:justify-end gap-[75px] sm:gap-[48px] md:gap-[50px] lg:gap-[124px] xlu:gap-[130px] xl1:gap-36 2xl:gap-40 ml-[25px] sm:ml-[72px]">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-3 sm:gap-4 items-center">
-              <span className="text-white font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xlu:text-[80px]  tracking-[-4.532px]">
+              <span className="text-white font-inter font-semibold text-[46px] sm:text-[50px] md:text-[60px] lg:text-[70px] xlu:text-[80px]  tracking-[-4.532px]">
                 10x
               </span>
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[28px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto rotate-180"
+                className="h-[40px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto rotate-180"
               />
             </div>
             <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
@@ -110,15 +110,15 @@ const CTA = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center justify-start gap-[80px] sm:gap-[85px] md:gap-[90px] lg:gap-[230px] xlu:gap-[250px] xl1:gap-[260px] 2xl:gap-[230px] sm:mt-28 md:mt-56">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center justify-start gap-[100px] sm:gap-[85px] md:gap-[90px] lg:gap-[210px] xlu:gap-[250px] xl1:gap-[260px] 2xl:gap-[230px] mt-6 sm:mt-28 md:mt-56">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-3 sm:gap-4 items-center">
-              <span className="text-white font-inter font-semibold text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px]  tracking-[-4.532px]">
+              <span className="text-white font-inter font-semibold text-[46px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px]  tracking-[-4.532px]">
                 50%
               </span>
               <Image
                 src={arrowDown}
                 alt="arrowDown"
-                className="h-[28px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto"
+                className="h-[40px] sm:h-[33px] md:h-[34px] lg:h-[44px] xlu:h-[52px] xl1:h-[60px] 2xl:h-[94px] w-auto"
               />
             </div>
             <div className="xl1:w-[64%] xlu:w-[64%] lg:w-[64%] 2xl:w-full">
@@ -158,18 +158,17 @@ const CTA = () => {
             </div>
           </div> */}
         </div>
-        <div className="py-0 sm:py-16 mt-2 sm:mt-20 md:mt-56">
+        <div className="py-0 sm:py-16 mt-2 sm:mt-20 md:mt-18">
           <h3 className="text-white text-center font-inter font-semibold text-[25px] sm:text-[38px] md:text-[51px] lg:text-[64px] xlu:text-[77.931px] leading-[62.931px] sm:leading-[88.931px] tracking-[-1.71px] ">
             What Our Customers Are Saying
           </h3>
           <div>
-            <div className="md:mt-28 sm:mt-6 lg:mt-44">
+            <div className="md:mt-16 sm:mt-6 lg:mt-40 lg:flex">
               {/* Upper Section */}
-              <Slider {...settings} className="client-slider">
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-between md:h-[440px] lg:h-[540px] xlu:h-[460px] xl1:h-[420px] 2xl:h-[400px] xxl:h-[380px] w-[90%] mx-auto gap-4 sm:gap-8 items-center">
+                      <div className="flex flex-col justify-between  lg:h-[380px] xlu:h-[460px] xl1:h-[360px] 2xl:h-[400px] xxl:h-[380px] w-[90%] mx-auto gap-2 sm:gap-8 lg:gap-2 items-center mt-4">
                         <p className="text-white text-center font-inter font-semibold text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px] md:leading-[40px] lg:leading-[51.4px]">
                           {item.review}
                         </p>
@@ -180,7 +179,6 @@ const CTA = () => {
                     </div>
                   );
                 })}
-              </Slider>
             </div>
             {/* <div className="flex justify-between items-start gap-28 mt-20">
               <p className="text-[17px] xl1:text-[19px] 2xl:text-[23px] font-medium text-white opacity-70 text-center w-1/3">
@@ -207,12 +205,12 @@ const CTA = () => {
                 -John, CEO of DevPro
               </p>
             </div> */}
-            <div className="flex gap-3 px-5 sm:px-0 justify-center mb-0 mt-20 sm:mt-10">
+            <div className="flex gap-3 px-5 sm:px-0 justify-center mb-0 lg:mb-10 mt-20 sm:mt-10 lg:mt-56">
               <Link
                 href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
                 target="_blank"
                 className="flex items-center justify-center gap-2 px-4 sm:px-8 py-3 sm:py-4 
-             rounded-[32px] bg-gradient-to-r from-[#09CAFF] to-[#19FE93] 
+             rounded-[32px] bg-gradient-to-r from-[#1967FE] to-[#07C76D] 
              font-inter text-black sm:text-[23.6px] font-semibold leading-[100%] tracking-[-0.04em] 
              sm:text-sm xl1:text-base 2xl:text-lg hover:opacity-90 transition-all"
               >

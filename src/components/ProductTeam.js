@@ -12,6 +12,8 @@ import Image from "next/image";
 import Stars from "@/assets/images/Stars.svg";
 import ChatAgents from "@/assets/images/ChatAgents.svg";
 import Light1 from "@/assets/images/Light1.png";
+import Light4 from "@/assets/images/Light4.svg";
+import Light2 from "@/assets/images/Light2.svg";
 import AthenaText from "@/assets/images/AthenaText.svg";
 import ApolloText from "@/assets/images/ApolloText.svg";
 import ArtemisText from "@/assets/images/ArtemisText.svg";
@@ -19,13 +21,13 @@ import Link from "next/link";
 
 const ProductTeam = () => {
   return (
-    <div className="relative bgAgent" id="content">
-      <div className="my-16 mt-40">
+    <div className="relative" id="content">
+      <div className="my-16 mt-20 sm:mt-40">
         <p className="font-inter font-semibold text-[36px] leading-[44.54px] tracking-[-1.71px] text-center flex items-center justify-center text-[#D8D8D8]">
           Introducing
         </p>
         <h2
-          className="font-inter font-semibold text-[40px] ms:text-[80px] leading-[99.54px] tracking-[-3px] sm:tracking-[-5.41px] 
+          className="font-inter font-semibold text-[40px] ms:text-[80px] sm:leading-[99.54px] tracking-[-3px] sm:tracking-[-5.41px] 
              text-center flex items-center justify-center 
              sm:text-[47px] xl:text-[47px] 2xl:text-[56px] 
              bg-gradient-to-r from-[#09CAFF] via-[#61FFFF] to-[#19FE93] 
@@ -35,10 +37,10 @@ const ProductTeam = () => {
         </h2>
       </div>
       <div className="relative w-11/12 sm:w-[70%] lg:w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <Image className="absolute -top-[400px] scale-[.7] hidden lg:block" src={Light1} />
+        <Image className="absolute -top-[150px] opacity-[.7] sm:-top-[220px] lg:-top-[320px] xlu:-top-[360px] scale-[1] lg:scale-[.7] " src={Light1} />
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6">
           <div className="flex items-center gap-3 justify-center my-10 sm:my-10">
-            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
               HiveMind Coding
             </span>
           </div>
@@ -47,14 +49,14 @@ const ProductTeam = () => {
             the plan
           </p>
           <Image
-            className="xxl:w-[460px] xl1:w-[400px] xl:w-[400px] w-[300px] mx-auto mt-28"
+            className="xxl:w-[460px] xl1:w-[400px] xl:w-[400px] w-[300px] mx-auto mt-16 sm:mt-28"
             src={HMCoding}
             alt="HMCoding"
           />
         </div>
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6 pb-4 ">
           <div className="flex items-center gap-3 justify-center my-10">
-            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent">
               HiveMind Planning
             </span>
           </div>
@@ -63,7 +65,7 @@ const ProductTeam = () => {
             conduct product R&D
           </p>
           <Image
-            className="xxl:w-[460px] xl1:w-[400px] xl:w-[400px] w-[300px] mx-auto mt-28"
+            className="xxl:w-[460px] xl1:w-[400px] xl:w-[400px] w-[300px] mx-auto mt-16 sm:mt-28"
             src={HMPlanning}
             alt="HMPlanning"
           />
@@ -74,14 +76,18 @@ const ProductTeam = () => {
           <span>The next generation of </span>
           <Image className="w-[280px] sm:w-[390px] md:w-[450px] lg:w-[510px] xlu:w-[570px]" src={ChatAgents} />
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 mt-16 gap-10">
-          <div className="flex flex-col gap-4 items-center p-5">
+        <div className="relative grid grid-cols-1 lg:grid-cols-3 mt-16 gap-10">
+          <Image className="absolute -top-28 sm:-top-44 lg:hidden" src={Light4}/>
+          <Image className="absolute -top-28 sm:-top-44 lg:-top-0 hidden lg:block" src={Light2}/>
+          <Image className="absolute top-36 lg:hidden" src={Light4}/>
+          <Image className="absolute top-[410px] sm:top-[450px] lg:hidden" src={Light4}/>
+          <div className="flex flex-col gap-2 items-center p-5">
             <Image
               src={athena}
               alt="athena"
               className="w-[44px] sm:w-[50px] md:w-[62px] 2xl:w-[80px] h-auto "
             />
-            <Image className="w-[220px] sm:w-[240px]" src={AthenaText} />
+            <Image className="w-[180px] sm:w-[240px]" src={AthenaText} />
             <p className="font-inter font-normal sm:text-[18px] md:text-[20px] lg:text-[26px] xlu:text-[32px] sm:leading-[30px] md:leading-[52.4px] tracking-normal text-center text-[#ffffff]">
               A well-informed brainstorming assistant to perfect product
               decision-making.
@@ -105,19 +111,19 @@ const ProductTeam = () => {
               alt="artemis"
               className="w-[44px] sm:w-[50px] md:w-[62px] 2xl:w-[80px] h-auto"
             />
-            <Image className="w-[220px] sm:w-[240px]" src={ArtemisText} />
+            <Image className="w-[180px] sm:w-[240px]" src={ArtemisText} />
             <p className="font-inter font-normal sm:text-[18px] md:text-[20px] lg:text-[26px] xlu:text-[32px] sm:leading-[30px] md:leading-[52.4px] tracking-normal text-center text-[#ffffff]">
               A senior developer for your team—keeping everyone on track, up to
               speed, and aligned.
             </p>
           </div>
         </div>
-        <div className="flex gap-3 px-5 sm:px-0 justify-center mb-0 mt-10">
+        <div className="relative z-[99] flex gap-3 px-5 sm:px-0 justify-center mb-0 mt-10">
           <Link
             href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
             target="_blank"
             className="flex items-center justify-center gap-2 px-4 sm:px-8 py-3 sm:py-4 
-             rounded-[32px] bg-gradient-to-r from-[#09CAFF] to-[#19FE93] 
+             rounded-[32px] bg-gradient-to-r from-[#1967FE] to-[#07C76D] 
              font-inter text-black sm:text-[23.6px] font-semibold leading-[100%] tracking-[-0.04em] 
              sm:text-sm xl1:text-base 2xl:text-lg hover:opacity-90 transition-all"
           >

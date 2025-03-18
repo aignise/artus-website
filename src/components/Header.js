@@ -18,7 +18,7 @@ export default function Header() {
       <div className="flex justify-between items-center py-4 px-6">
         <div className="text-2xl font-bold">
           <Link href="/">
-            <Image src={logo} alt="logo" className="w-20 xl1:w-24" />
+            <Image src={logo} alt="logo" className="w-24 sm:w-20 xl1:w-24" />
           </Link>
         </div>
 

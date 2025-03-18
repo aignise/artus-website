@@ -55,13 +55,6 @@ const Footer = () => {
             >
               <Image src={linkedin} alt="linkedin" />
             </Link>
-            <Link
-              className="text-white w-[48.829px] h-[46.667px] flex items-center justify-center font-semibold text-sm p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
-              href={"https://www.linkedin.com/company/artusai"}
-              target="_blank"
-            >
-              <Image src={linkedin} alt="linkedin" />
-            </Link>
             {/* <Link
               className="text-white font-semibold text-sm block p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
               href={"#"}

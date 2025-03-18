@@ -32,16 +32,13 @@ const DeveloperSection = () => {
         className="absolute sm:-left-4 top-20 sm:-top-72 md:-top-56 z-[0]"
         src={BackgroundArrow}
       />
-      <Image
-        className="absolute -top-[460px] left-[370px] 2xl:left-[270px] xl:left-[110px] xl1:left-[70px] lg:scale-[.7] md:left-[-70px] z-[0] lg:block hidden"
-        src={Light6}
-      />
-      <div className="pt-72 sm:pt-32 md:pt-40 sm:pb-6 md:pb-16 mx-auto w-[90%]">
+      <div className="pt-36 sm:pt-32 md:pt-40 sm:pb-6 md:pb-16 mx-auto w-[90%]">
+        <Image className="absolute -top-12 sm:-top-36 lg:-top-72 scale-[.7]" src={Light6}/>
         <div className="sm:text-center">
-          <h4 className="text-center font-inter font-bold text-[56px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] tracking-[-3px] sm:tracking-[-6.456px] shadow-[0px_0px_8px_rgba(0,0,0,0.45)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
+          <h4 className="text-center font-inter font-bold text-[40px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] sm:leading-[80px] lg:leading-[90px] tracking-[-3px] sm:tracking-[-6.456px] shadow-[0px_0px_8px_rgba(0,0,0,0.45)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
             HiveMind Coding
           </h4>
-          <p className="text-white text-center font-inter font-medium sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[61.568px] tracking-[-0.684px]">
+          <p className="text-white text-center font-inter font-medium sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[61.568px] tracking-[-0.684px] mt-4 w-[90%] mx-auto">
             Boot up an army of AI coders to write enterprise-grade software for
             you.
           </p>
@@ -53,47 +50,13 @@ const DeveloperSection = () => {
         />
       </div>
       <div className="relative lg:w-[100%] w-[100%] mx-auto">
-        <Image
-          src={circleLeft}
-          alt="circle"
-          className="block lg:hidden absolute left-0 top-0"
-        />
-        <Image
-          src={circle}
-          alt="circle"
-          className="hidden lg:block absolute left-0 top-0"
-        />
-        <Image
-          src={circleRight}
-          alt="circle"
-          className="block lg:hidden absolute right-0 top-0"
-        />
-        <Image
-          src={circle}
-          alt="circle"
-          className="hidden lg:block absolute right-0 top-0"
-        />
-        <Image
-          src={circle}
-          alt="circle"
-          className="w-auto md:w-[1000px] absolute left-2/4 -translate-x-1/2 bottom-[37rem]"
-        />
-        <Image
-          src={circle}
-          alt="circle"
-          className="absolute left-0 top-1/2 -translate-y-1/2"
-        />
-        <Image
-          src={circle}
-          alt="circle"
-          className="absolute left-2/4 -translate-x-1/2 bottom-0"
-        />
         <div className="flex flex-col items-center md:pt-10 pb-16 mx-auto relative z-10 md:w-[85%] sm:w-[85%] w-[85%] mt-20 sm:mt-36">
+          <Image className="absolute -top-36 sm:-top-56 lg:-top-72 xlu:-top-96" src={Light6}/>
           <div className="text-center">
-            <h4 className="text-center font-inter font-semibold text-[50px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] sm:leading-[88.931px] tracking-[-2.113px] shadow-[2.461px_4.923px_9.846px_rgba(0,0,0,0.15)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
+            <h4 className="text-center font-inter font-semibold text-[34px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] leading-[40px] sm:leading-[88.931px] tracking-[-2.113px] shadow-[2.461px_4.923px_9.846px_rgba(0,0,0,0.15)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
               Unlock Unparalleled{" "}
             </h4>
-            <h3 className="text-white font-inter font-semibold text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[88.931px] tracking-[-2.113px]">
+            <h3 className="text-white font-inter font-semibold text-[34px] sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] leading-[40px] sm:leading-[88.931px] tracking-[-2.113px]">
               Developer Productivity{" "}
             </h3>
             <p className="text-white text-center font-inter font-semibold sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[45.6px] tracking-[-0.684px] mt-8 sm:mt-20 mb-8 sm:mb-36">
@@ -103,13 +66,9 @@ const DeveloperSection = () => {
           </div>
           <div className="w-full">
             <div className="max-w-6xl mx-auto">
-              <div className="grid lg:grid-cols-2 grid-cols-2 gap-x-16 sm:gap-x-24 gap-y-6 sm:gap-y-10 mb-10">
-                <Image
-                  className="absolute top-[500px] -left-0 lg:block hidden"
-                  src={Light7}
-                />
+              <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-16 sm:gap-x-24 gap-y-10 sm:gap-y-10 mb-10">
                 <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Endpoint Creation
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -117,7 +76,7 @@ const DeveloperSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Database Building
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -125,7 +84,7 @@ const DeveloperSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Task Executions
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -133,7 +92,7 @@ const DeveloperSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Schematics Generation
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -141,7 +100,7 @@ const DeveloperSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Natural Language Edits
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -149,7 +108,7 @@ const DeveloperSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#09CAFF] font-inter font-semibold sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
+                <h4 className="text-[#09CAFF] font-inter font-semibold text-[24px] sm:text-[30px] md:text-[38px] lg:text-[46px] xlu:text-[54px] sm:leading-[53.152px] tracking-[-1.28px] capitalize">
                   Auto-Documentation
                 </h4>
                 <p className="text-white font-inter font-normal sm:text-[18px] md:text-[22px] lg:text-[26px] xlu:text-[30px] sm:leading-[45.6px] tracking-[-0.684px] pt-1 sm:pt-4">
@@ -160,21 +119,22 @@ const DeveloperSection = () => {
               </div>
             </div>
           </div>
-          <div className="mt-16 sm:mt-40 md:mt-72 mx-auto">
-            <div className="flex justify-between items-center w-full mb-4">
+          <div className="relative mt-16 sm:mt-40 md:mt-72 mx-auto">
+            <Image className="absolute -top-12 lg:-top-56 xlu:-top-72" src={Light7}/>
+            <div className="flex flex-col-reverse lg:flex lg:flex-row gap-2 text-center lg:text-left justify-between items-center w-full mb-4">
               <p className="text-white font-inter font-medium md:text-[17px] lg:text-[24px] xlu:text-[32px] md:leading-[24px] lg:leading-[45.6px] tracking-[-0.684px]">
                 Your Ai+Human teams's lead engineer for unparalleled developer
                 productivity
               </p>
               <Image
-                className="md:w-[160px] lg:w-[300px] xlu:w-[404.875px]"
+                className="w-[180px] md:w-[160px] lg:w-[300px] xlu:w-[404.875px]"
                 src={ArtemisBlueLogo}
               />
             </div>
             <Image
               src={ArtemisScreenImage}
               alt="ArtemisScreenImage"
-              className="w-full transform-gpu"
+              className="w-full transform-gpu mt-4"
             />
           </div>
           {/* <Image src={developer} alt="developer" className="w-full" /> */}

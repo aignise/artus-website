@@ -12,7 +12,39 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-black">
-      <div className="absolute -z-2">
+      <div className="absolute stars-container -z-2 overflow-hidden w-full">
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
         <Image src={Stars} alt="Stars background" />
         <Image src={Stars} alt="Stars background" />
         <Image src={Stars} alt="Stars background" />
@@ -27,6 +59,7 @@ export default function Home() {
         <Image src={Stars} alt="Stars background" />
         <Image src={Stars} alt="Stars background" />
       </div>
+
       <Header />
       <div className="bg-black">
         <Banner />
