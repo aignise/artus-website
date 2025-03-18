@@ -37,10 +37,10 @@ const ProductTeam = () => {
         </h2>
       </div>
       <div className="relative w-11/12 sm:w-[70%] lg:w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <Image className="absolute -top-[150px] opacity-[.7] sm:-top-[220px] lg:-top-[320px] xlu:-top-[360px] scale-[1] lg:scale-[.7] " src={Light1} />
+        <Image className="absolute -top-[150px] opacity-[.7] sm:-top-[220px] lg:-top-[320px] xlu:-top-[360px] 2xl:-top-[440px] xxl:-top-[500px] scale-[1] lg:scale-[.7] " src={Light1} />
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6">
           <div className="flex items-center gap-3 justify-center my-10 sm:my-10">
-            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[36px] sm:text-[56.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#09CAFF] via-[#19FE93] to-[#19FE93] bg-clip-text text-transparent">
               HiveMind Coding
             </span>
           </div>
@@ -56,7 +56,7 @@ const ProductTeam = () => {
         </div>
         <div className="relative z-10 bg-[#0B121E8C] rounded-2xl p-6 pb-4 ">
           <div className="flex items-center gap-3 justify-center my-10">
-            <span className="font-inter font-semibold text-[36px] sm:text-[54.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent">
+            <span className="font-inter font-semibold text-[36px] sm:text-[56.36px] tracking-[-2px] sm:tracking-[-3.79px] text-center bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent">
               HiveMind Planning
             </span>
           </div>
@@ -77,8 +77,8 @@ const ProductTeam = () => {
           <Image className="w-[280px] sm:w-[390px] md:w-[450px] lg:w-[510px] xlu:w-[570px]" src={ChatAgents} />
         </h2>
         <div className="relative grid grid-cols-1 lg:grid-cols-3 mt-16 gap-10">
+          <Image className="absolute -top-28 sm:-top-44 lg:-top-0 2xl:-top-36 xxl:-top-64 hidden lg:block" src={Light2}/>
           <Image className="absolute -top-28 sm:-top-44 lg:hidden" src={Light4}/>
-          <Image className="absolute -top-28 sm:-top-44 lg:-top-0 hidden lg:block" src={Light2}/>
           <Image className="absolute top-36 lg:hidden" src={Light4}/>
           <Image className="absolute top-[410px] sm:top-[450px] lg:hidden" src={Light4}/>
           <div className="flex flex-col gap-2 items-center p-5">

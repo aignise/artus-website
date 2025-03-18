@@ -110,7 +110,7 @@ const CTA = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center justify-start gap-[100px] sm:gap-[85px] md:gap-[90px] lg:gap-[210px] xlu:gap-[250px] xl1:gap-[260px] 2xl:gap-[230px] mt-6 sm:mt-28 md:mt-56">
+          <div className="flex items-start lg:justify-center xlu:justify-center xl1:justify-center justify-start gap-[100px] sm:gap-[85px] md:gap-[90px] lg:gap-[210px] xl:gap-[240px] xlu:gap-[250px] xl1:gap-[260px] 2xl:gap-[230px] mt-6 sm:mt-28 md:mt-56">
             <div className="w-12 sm:w-32 lg:w-28 flex gap-3 sm:gap-4 items-center">
               <span className="text-white font-inter font-semibold text-[46px] sm:text-[50px] md:text-[60px] lg:text-[70px]  xlu:text-[80px]  tracking-[-4.532px]">
                 50%
@@ -168,7 +168,7 @@ const CTA = () => {
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-between  lg:h-[380px] xlu:h-[460px] xl1:h-[360px] 2xl:h-[400px] xxl:h-[380px] w-[90%] mx-auto gap-2 sm:gap-8 lg:gap-2 items-center mt-4">
+                      <div className="flex flex-col justify-between  lg:h-[380px] xlu:h-[460px] xl1:h-[360px] 2xl:h-[300px] xxl:h-[280px] w-[90%] mx-auto lg:mx-0 gap-2 sm:gap-8 lg:gap-2 items-center mt-4">
                         <p className="text-white text-center font-inter font-semibold text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px] md:leading-[40px] lg:leading-[51.4px]">
                           {item.review}
                         </p>

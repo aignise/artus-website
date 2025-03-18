@@ -12,12 +12,12 @@ const Footer = () => {
     <div className="relative z-[99] bg-[#000000] py-5 2xl:py-14">
       <div className="w-[95%] sm:w-[95%] lg:w-[90%] mx-auto">
         <div className="flex items-center justify-center gap-12">
-          <p className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
+          <Link target="_blank" href="https://www.artusai.co/research" className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
             Research
-          </p>
-          <p className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
+          </Link>
+          <Link target="_blank" href="https://www.artusai.co/team" className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
             Team
-          </p>
+          </Link>
         </div>
         <div className="lg:flex lg:flex-row flex-col sm:flex-col md:flex-col sm:gap-3 md:gap-8 justify-between items-center my-6 sm:my-8 md:my-10 lg:my-24">
           <Link href={"#"}>

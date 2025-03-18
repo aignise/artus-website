@@ -24,7 +24,7 @@ const ProductManagement = () => {
     <div className="bg-black">
       <div className="relative pt-28 sm:pt-28 md:pt-64 pb-0">
         <Image className="absolute top-[340px]" src={BackgroundArrow} />
-        <Image className="absolute -top-36 md:block hidden" src={Light3} />
+        <Image className="absolute -top-36 2xl:left-36 md:block hidden" src={Light3} />
         <div className="relative px-5 sm:px-0 sm:mx-4 md:mx-10">
           {/* <Image className="absolute -top-40 left-0 scale-[.8] lg:scale-[.5]" src={Light3}/> */}
           <h1 className="font-inter font-semibold text-[36px] sm:text-[52px] md:text-[62px] lg:text-[72px] xlu:text-[80px] leading-[44.74px] sm:leading-[83.99px] tracking-[-3px] sm:tracking-[-4.46px] text-center align-middle text-[#D8D8D8]">
@@ -41,15 +41,15 @@ const ProductManagement = () => {
         </div>
         <div className="relative px-5 sm:px-0 flex flex-col sm:w-[90%] gap-6 sm:gap-12 mx-auto mt-10 sm:mt-12 md:mt-24 z-10">
           <Image
-            className="absolute -top-44 sm:-top-[290px] lg:left-96 lg:-top-[220px] xlu:left-[700px] xlu:-top-[120px] scale-[.7]"
+            className="absolute -top-44 sm:-top-[290px] xl:left-[600px] xl:-top-[120px] lg:left-96 lg:-top-[220px] xlu:left-[700px] xlu:-top-[120px] 2xl:left-[860px] 2xl:top-[60px] xxl:left-[1100px] xxl:top-[120px] scale-[.7]"
             src={Light4}
           />
           <Image
-            className="absolute top-64 sm:top-[440px] lg:-left-44 lg:top-[360px] xlu:top-[600px] scale-[.7]"
+            className="absolute top-64 sm:top-[440px] lg:-left-44 lg:top-[360px] xl:top-[520px] xlu:top-[600px] 2xl:top-[750px] xxl:top-[1000px] scale-[.7]"
             src={Light4}
           />
           <Image
-            className="absolute top-[640px] scale-[.7] lg:top-[760px] lg:left-[350px] xlu:top-[1150px] xlu:left-[700px]"
+            className="absolute top-[640px] scale-[.7] md:top-[1200px] lg:top-[760px] lg:left-[350px] xl:left-[560px] xl:top-[960px] xlu:top-[1150px] xlu:left-[700px] 2xl:left-[800px] 2xl:top-[1300px] xxl:left-[1100px] xxl:top-[1650px]"
             src={Light4}
           />
           <div className="relative z-[99] flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0 lg:justify-between justify-between">
@@ -91,14 +91,14 @@ const ProductManagement = () => {
             <div className="w-full xxl:w-[100%] 2xl:w-[90%] xl1:w-[84%] xlu:w-[84%] lx:w-[82%] lg:w-[80%]">
               <Image src={DynamicD} alt="Specificity" className="w-full" />
             </div>
-            <div className="lg:absolute lg:right-[50px] text-center lg:top-[10px] xlu:top-[50px]">
+            <div className="lg:absolute lg:right-[50px] text-center lg:top-[10px] xlu:top-[50px] xxl:top-[140px]">
               <h3 className="md:text-center font-inter font-bold text-[38px] sm:text-[34px] md:text-[44px] lg:text-[54px] xlu:text-[64px] leading-[40px] md:leading-[90.85px] tracking-[-2.11px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent">
                 Dynamic <br /> Documentation
               </h3>
             </div>
           </div>
-          <div className="relative flex flex-col gap-[28px] lg:flex-row items-center lg:items-start lg:justify-between mt-16 sm:mt-20 md:mt-36 w-full lg:w-[90%] text-center lg:text-left lg:mx-auto">
-            <div className="w-full lg:w-[31%]">
+          <div className="relative flex flex-col gap-[28px] lg:gap-[64px] lg:flex-row items-center lg:items-start lg:justify-between mt-16 sm:mt-20 md:mt-36 w-full lg:w-[90%] text-center lg:text-left lg:mx-auto">
+            <div className="w-full lg:w-[33%]">
               <div>
                 <h3 className="font-inter font-semibold text-[38px] sm:text-[34px] md:text-[44px] lg:text-[44px] xlu:text-[62px] md:leading-[90.854px] tracking-[-2.113px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent shadow-[0px_9.391px_9.391px_rgba(0,0,0,0.25)]">
                   Visualization
@@ -108,7 +108,7 @@ const ProductManagement = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[31%]">
+            <div className="w-full lg:w-[33%]">
               <h3 className="font-inter font-semibold text-[38px] sm:text-[34px] md:text-[44px] lg:text-[44px] xlu:text-[62px] md:leading-[90.854px] tracking-[-2.113px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent shadow-[0px_9.391px_9.391px_rgba(0,0,0,0.25)]">
                 Sprints
               </h3>
@@ -116,7 +116,7 @@ const ProductManagement = () => {
                 Phase-wise execution of you ideas for agility agility
               </p>
             </div>
-            <div className="w-full lg:w-[31%]">
+            <div className="w-full lg:w-[33%]">
               <h3 className="font-inter font-semibold text-[38px] sm:text-[34px] md:text-[44px] lg:text-[44px] xlu:text-[62px] md:leading-[90.854px] tracking-[-2.113px] bg-gradient-to-r from-[#CEE1FF] to-[#1967FE] bg-clip-text text-transparent shadow-[0px_9.391px_9.391px_rgba(0,0,0,0.25)]">
                 AI Tasks
               </h3>
@@ -146,7 +146,7 @@ const ProductManagement = () => {
               className="w-[98%] scale-110 transform-gpu mt-4"
             />
           </div>
-          <div className="flex gap-3 px-5 sm:px-0 justify-center items-center mb-0 mt-10">
+          <div className="flex gap-3 px-5 sm:px-0 justify-center items-center mb-0 mt-10 lg:mt-24">
             <p className="text-white font-inter font-semibold sm:text-[25px]  md:text-[27px] lg:text-[29.164px] xlu:text-[31.164px]  tracking-[-1.247px]">
               Start using these features
             </p>
