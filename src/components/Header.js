@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className={`hidden lg:flex space-x-8 items-center text-[22px]`}>
+        <nav className={`hidden lg:flex space-x-8 items-center text-[22px] pr-[100px]`}>
           <Link
             href="/"
             className={`${

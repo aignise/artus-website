@@ -13,7 +13,7 @@ import productivityLeft from "@/assets/images/productivity-left.png";
 import artemis from "@/assets/images/artemis.png";
 import creation from "@/assets/images/creation.png";
 import creationLeft from "@/assets/images/creation-left.png";
-import HivemindCodingHero from "@/assets/images/HivemindCodingHero.svg";
+import HivemindCodingHero from "@/assets/images/HivemindCodingHero.png";
 import ArtemisBlueLogo from "@/assets/images/ArtemisBlueLogo.svg";
 import ArtemisScreenImage from "@/assets/images/ArtemisScreenImage.svg";
 import BackgroundArrow from "@/assets/images/BackgroundArrow.svg";
@@ -29,13 +29,13 @@ const DeveloperSection = () => {
   return (
     <div className="relative mx-auto ">
       <Image
-        className="absolute sm:-left-4 top-20 sm:-top-72 md:-top-56 z-[0]"
+        className="absolute sm:-left-4 top-20 sm:-top-72 md:-top-56 lg:top-56 z-[0]"
         src={BackgroundArrow}
       />
-      <div className="pt-36 sm:pt-32 md:pt-40 sm:pb-6 md:pb-16 mx-auto w-[90%]">
-        <Image className="absolute -top-12 sm:-top-36 lg:-top-72 scale-[.7]" src={Light6}/>
+      <div className="pt-36 sm:pt-32 md:pt-40 lg:pt-[480px] sm:pb-6 md:pb-16 mx-auto w-[90%]">
+        <Image className="absolute -top-12 sm:-top-36 lg:-top-16 lg:-left-8 xl:-top-20 xl:-left-16 scale-[.7]" src={Light6}/>
         <div className="sm:text-center">
-          <h4 className="text-center font-inter font-bold text-[40px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] sm:leading-[80px] lg:leading-[90px] tracking-[-3px] sm:tracking-[-6.456px] shadow-[0px_0px_8px_rgba(0,0,0,0.45)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
+          <h4 className="text-center font-inter font-bold text-[40px] sm:text-[62px] md:text-[68px] lg:text-[74px]  xlu:text-[80px] sm:leading-[80px] lg:leading-[96px] tracking-[-3px] sm:tracking-[-6.456px] shadow-[0px_0px_8px_rgba(0,0,0,0.45)] bg-gradient-to-r from-[#19FE93] to-[#09CAFF] bg-clip-text text-transparent">
             HiveMind Coding
           </h4>
           <p className="text-white text-center font-inter font-medium sm:text-[22px] md:text-[26px] lg:text-[30px] xlu:text-[32px] sm:leading-[61.568px] tracking-[-0.684px] mt-4 w-[90%] mx-auto">
@@ -46,7 +46,7 @@ const DeveloperSection = () => {
         <Image
           src={HivemindCodingHero}
           alt="HivemindCodingHero"
-          className="w-full scale-110 transform-gpu mt-12 sm:mt-28"
+          className="w-full scale-110 transform-gpu mt-12 sm:mt-28 lg:mt-8"
         />
       </div>
       <div className="relative lg:w-[100%] w-[100%] mx-auto">
