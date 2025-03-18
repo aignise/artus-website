@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className="relative">
       <Image
-        className="absolute top-[310px] left-[-10px]"
+        className="absolute top-[310px] "
         src={BackgroundArrow}
       />
       {/* <Image

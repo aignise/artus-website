@@ -168,7 +168,7 @@ const CTA = () => {
                 {data.map((item) => {
                   return (
                     <div>
-                      <div className="flex flex-col justify-between  lg:h-[380px] xlu:h-[460px] xl1:h-[360px] 2xl:h-[300px] xxl:h-[280px] w-[90%] mx-auto gap-2 sm:gap-8 lg:gap-2 items-center mt-4">
+                      <div className="flex flex-col justify-between  lg:h-[380px] xlu:h-[460px] xl1:h-[360px] 2xl:h-[300px] xxl:h-[280px] w-[90%] mx-auto lg:mx-0 gap-2 sm:gap-8 lg:gap-2 items-center mt-4">
                         <p className="text-white text-center font-inter font-semibold text-[16px] sm:text-[20px] md:text-[24px] lg:text-[28px] md:leading-[40px] lg:leading-[51.4px]">
                           {item.review}
                         </p>
