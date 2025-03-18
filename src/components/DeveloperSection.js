@@ -29,7 +29,7 @@ const DeveloperSection = () => {
   return (
     <div className="relative mx-auto ">
       <Image
-        className="absolute sm:-left-4 top-20 sm:-top-72 md:-top-56 lg:top-56 z-[0]"
+        className="absolute top-20 sm:-top-72 md:-top-56 lg:top-56 z-[0]"
         src={BackgroundArrow}
       />
       <div className="pt-36 sm:pt-32 md:pt-40 lg:pt-[480px] sm:pb-6 md:pb-16 mx-auto w-[90%]">
