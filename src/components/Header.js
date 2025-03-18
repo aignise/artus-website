@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import logo from "@/assets/images/Artus.png";
+import logo from "@/assets/images/ArtusLogo.svg";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
@@ -14,15 +14,15 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#303030] text-white">
+    <header className="relative bg-transparent text-white">
       <div className="flex justify-between items-center py-4 px-6">
         <div className="text-2xl font-bold">
           <Link href="/">
-            <Image src={logo} alt="logo" className="w-20 xl1:w-24" />
+            <Image src={logo} alt="logo" className="w-24 sm:w-20 xl1:w-24" />
           </Link>
         </div>
 
-        <nav className={`hidden lg:flex space-x-8 items-center`}>
+        <nav className={`hidden lg:flex space-x-8 items-center text-[22px]`}>
           <Link
             href="/"
             className={`${
@@ -55,15 +55,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className="hidden lg:block">
-          <Link
-            href="https://calendly.com/ashreyignise/artus-product-demo?month=2024-10"
-            target="_blank"
-            className="bg-[#046EC5] bg-gradient-to-r from-[#6EBAF8] to-[#046EC5] hover:to-[#6EBAF8] transition-all text-sm xl1:text-base 2xl:text-lg flex items-center text-white rounded-full font-semibold min-h-11 leading-none px-5"
-          >
-            <span className="mb-1">Book a Demo</span>
-          </Link>
-        </div>
+        <div></div>
 
         <div className="lg:hidden">
           <button

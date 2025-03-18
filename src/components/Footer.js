@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logo from "@/assets/images/Artus.png";
+import logo from "@/assets/images/ArtusLogo.svg";
 import linkedin from "@/assets/images/linkedin-icon.png";
 import fb from "@/assets/images/fb-icon.png";
 import twitter from "@/assets/images/twitter-icon.png";
@@ -9,16 +9,30 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000000] py-5 2xl:py-8">
-      <div className="w-5/6 lg:w-3/4 mx-auto">
-        <div className="flex justify-between items-center">
+    <div className="relative z-[99] bg-[#000000] py-5 2xl:py-14">
+      <div className="w-[95%] sm:w-[95%] lg:w-[90%] mx-auto">
+        <div className="flex items-center justify-center gap-12">
+          <p className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
+            Research
+          </p>
+          <p className="text-white text-center font-inter lg:text-[16px] xlu:text-[20.164px] font-normal leading-normal cursor-pointer">
+            Team
+          </p>
+        </div>
+        <div className="lg:flex lg:flex-row flex-col sm:flex-col md:flex-col sm:gap-3 md:gap-8 justify-between items-center my-6 sm:my-8 md:my-10 lg:my-24">
           <Link href={"#"}>
             <Image
               src={logo}
               alt="logo"
-              className="w-[80px] 2xl:w-[109px] h-auto"
+              className="w-[80px] 2xl:w-[100 px] h-auto mx-auto"
             />
           </Link>
+          <p className="text-white text-center font-inter md:text-[16px] lg:text-[20px] xlu:text-[22.164px] font-normal leading-normal py-3">
+            We are Artus. Our goal is to translate the positive effects from{" "}
+            <br />
+            revolutionizing how companies engage with their clients & their
+            team.
+          </p>
           {/* <div className="hidden sm:block">
             <Link
               className="text-white font-semibold text-sm 2xl:text-lg mx-5"
@@ -33,9 +47,9 @@ const Footer = () => {
               Privacy Policy
             </Link>
           </div> */}
-          <div className="flex">
+          <div className="flex justify-center">
             <Link
-              className="text-white font-semibold text-sm block p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
+              className="text-white w-[48.829px] h-[46.667px] flex items-center justify-center font-semibold text-sm  p-3 mx-2 rounded-full border-2 border-[#ffffff20]"
               href={"https://www.linkedin.com/company/artusai"}
               target="_blank"
             >
@@ -55,12 +69,8 @@ const Footer = () => {
             </Link> */}
           </div>
         </div>
-        <p className="text-white opacity-60 text-xs 2xl:text-base">
-          We are Artus. Our goal is to translate the positive effects from
-          revolutionizing how companies engage with their clients & their team.
-        </p>
-        <div className="flex justify-center items-center border-t border-[#ffffff45] mt-5">
-          <p className="text-white text-xs mt-5">
+        <div className="flex justify-center items-center mt-5">
+          <p className="text-white opacity-[.31] text-center font-inter md:text-[16px] lg:text-[18px] xlu:text-[20.164px] font-normal leading-normal">
             All rights reserved. Copyright © 2024 Artus AI Workspaces Pvt Ltd
           </p>
         </div>

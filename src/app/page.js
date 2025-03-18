@@ -6,18 +6,68 @@ import Header from "@/components/Header";
 import LogoSection from "@/components/LogoSection";
 import ProductManagement from "@/components/ProductManagement";
 import ProductTeam from "@/components/ProductTeam";
+import Stars from "@/assets/images/Stars.svg";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black">
+      <div className="absolute stars-container -z-2 overflow-hidden w-full">
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+        <Image src={Stars} alt="Stars background" />
+      </div>
+
       <Header />
-      <div className="bg-[#1f1f1f]">
+      <div className="bg-black">
         <Banner />
         {/* <LogoSection /> */}
         <ProductTeam />
       </div>
       <ProductManagement />
-      <div className="bg-[#1f1f1f]">
+      <div className="bg-black">
         <DeveloperSection />
       </div>
       <CTA />
