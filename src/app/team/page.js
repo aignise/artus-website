@@ -21,11 +21,7 @@ import Footer from "@/components/Footer";
 const page = () => {
   const members = [
     { name: "Aditya Chatterjee", role: "Design Lead", img: aditya },
-    { name: "Khushi Shroff", role: "User-Interface Specialist", img: khushi },
-    { name: "Haseeb Raza", role: "Frontend Developer", img: haseeb },
-    { name: "Bhushan Bhise", role: "Sales Executive", img: bhushan },
-    { name: "Prachi Rusia", role: "Lead Generation Manager", img: prachi },
-    { name: "Yashika Vahi", role: "Content Manager", img: yashika },
+    { name: "Haseeb Raza", role: "Lead Developer", img: haseeb },
   ];
   return (
     <div>
@@ -60,35 +56,18 @@ const page = () => {
             <div className="block lg:flex items-center gap-8 justify-between my-8 md:my-20">
               <div className="md:flex items-center gap-10 md:w-full lg:w-2/4">
                 <Image
-                  src={shery}
-                  alt="shery"
+                  src={yash}
+                  alt="yash"
                   className="h-[400px] lg:h-[500px] 2xl:h-[600px] w-auto mx-auto md:mx-0"
                 />
+
                 <div className="my-5 md:my-0">
                   <h1 className="font-extrabold text-[24px] xl1:text-2xl 2xl:text-3xl">
-                    Co-founder, CEO
+                    Co-Founder, CEO
                   </h1>
                   <h5 className="font-bold text-xl 2xl1:text-[22px] xl1:text-[24px] my-2">
-                    Ashrey Ignise R
+                    Yash Vahi
                   </h5>
-                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 lg:min-h-40">
-                    On a mission to empower engineers, entrepreneurs, and
-                    scientists around the world, Ashrey specializes in building
-                    memorable brands and selling important ideas to the right
-                    people.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-10 md:w-full lg:w-2/4">
-                <div className="hidden md:block">
-                  <div>
-                    <h1 className="font-extrabold text-[24px] xl1:text-2xl 2xl:text-3xl">
-                      Co-founder, CTO
-                    </h1>
-                    <h5 className="font-bold text-xl 2xl1:text-[22px] xl1:text-[24px] my-2">
-                      Yash Vahi
-                    </h5>
-                  </div>
                   <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 lg:min-h-40">
                     Combining his deep AI expertise with a passion for
                     innovation, Yash is driving the democratization of advanced
@@ -96,51 +75,68 @@ const page = () => {
                     build single-person unicorns at unprecedented speed.
                   </p>
                 </div>
+              </div>
+              <div className="flex items-center gap-10 md:w-full lg:w-2/4">
+                <div className="hidden md:block">
+                  <div>
+                    <h1 className="font-extrabold text-[24px] xl1:text-2xl 2xl:text-3xl">
+                      Co-Founder, CPO
+                    </h1>
+                    <h5 className="font-bold text-xl 2xl1:text-[22px] xl1:text-[24px] my-2">
+                      Ashrey Ignise R
+                    </h5>
+                  </div>
+                  <p className="text-base 2xl:text-lg text-[#5d5d5d] md:min-h-44 lg:min-h-40">
+                    On a mission to empower engineers, entrepreneurs, and
+                    scientists around the world, Ashrey specializes in building
+                    memorable brands and selling important ideas to the right
+                    people.
+                  </p>
+                </div>
                 <Image
-                  src={yash}
-                  alt="yash"
+                  src={shery}
+                  alt="shery"
                   className="h-[400px] lg:h-[500px] 2xl:h-[600px] w-auto mx-auto md:mx-0"
                 />
               </div>
               <div className="block md:hidden my-5">
                 <div>
                   <h1 className="font-bold text-[22px] xl1:text-2xl 2xl:text-3xl">
-                    Co-founder, CTO
+                    Co-Founder, CPO
                   </h1>
                   <h5 className="font-bold text-xl 2xl1:text-[22px] xl1:text-[24px] my-2">
-                    Yash Vahi
+                    Ashrey Ignise R
                   </h5>
                 </div>
                 <p className="text-base 2xl:text-lg text-[#5d5d5d]">
-                  Combining his deep AI expertise with a passion for innovation,
-                  Yash is driving the democratization of advanced AI
-                  technologies to help individuals unlock the potential to build
-                  single-person unicorns at unprecedented speed.
+                  On a mission to empower engineers, entrepreneurs, and
+                  scientists around the world, Ashrey specializes in building
+                  memorable brands and selling important ideas to the right
+                  people.
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-20 border-b pb-10">
-              {members.map((member, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="flex flex-col items-center justify-center"
-                  >
-                    <Image
-                      src={member.img}
-                      alt={member.name}
-                      className="w-[177px] 2xl:w-[254px] h-[177px] 2xl:h-[254px] rounded-full"
-                    />
-                    <h4 className="text-[22px] xl1:text-[24px] 2xl:text-[27px] font-bold mt-4">
-                      {member.name}
-                    </h4>
-                    <p className="text-black font-medium text-lg xl1:text-[19px]">
-                      {member.role}
-                    </p>
-                  </div>
-                );
-              })}
+            <div className="flex flex-wrap justify-center gap-10 mt-20 border-b pb-10">
+              {members.map((member, index) => (
+                <div
+                  key={index}
+                  className="w-full md:w-1/2 xl:w-1/3 flex flex-col items-center"
+                >
+                  <Image
+                    src={member.img}
+                    alt={member.name}
+                    className="w-[177px] 2xl:w-[254px] h-[177px] 2xl:h-[254px] rounded-full"
+                  />
+                  <h4 className="text-[22px] xl1:text-[24px] 2xl:text-[27px] font-bold mt-4">
+                    {member.name}
+                  </h4>
+                  <p className="text-black font-medium text-lg xl1:text-[19px]">
+                    {member.role}
+                  </p>
+                </div>
+              ))}
             </div>
+
             <div>
               <h3 className="text-3xl xl1:text-[38px] 2xl:text-[48px] leading-none font-bold text-center mt-20">
                 <span className="text-[#1967FE] tracking-tight">
