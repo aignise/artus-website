@@ -24,7 +24,10 @@ const ProductManagement = () => {
     <div className="bg-black">
       <div className="relative pt-28 sm:pt-28 md:pt-64 pb-0">
         <Image className="absolute top-[340px]" src={BackgroundArrow} />
-        <Image className="absolute -top-36 2xl:left-36 md:block hidden" src={Light3} />
+        <Image
+          className="absolute -top-36 2xl:left-36 md:block hidden"
+          src={Light3}
+        />
         <div className="relative px-5 sm:px-0 sm:mx-4 md:mx-10">
           {/* <Image className="absolute -top-40 left-0 scale-[.8] lg:scale-[.5]" src={Light3}/> */}
           <h1 className="font-inter font-semibold text-[36px] sm:text-[52px] md:text-[62px] lg:text-[72px] xlu:text-[80px] leading-[44.74px] sm:leading-[83.99px] tracking-[-3px] sm:tracking-[-4.46px] text-center align-middle text-[#D8D8D8]">
@@ -113,7 +116,7 @@ const ProductManagement = () => {
                 Sprints
               </h3>
               <p className="text-white font-inter font-medium sm:text-[20px] md:text-[26px] lg:text-[26px] xlu:text-[32px] md:leading-[45.6px] tracking-[-0.684px] sm:mb-[24px] md:mb-[0px]">
-                Phase-wise execution of you ideas for agility agility
+                Phase-wise execution of you ideas for agility
               </p>
             </div>
             <div className="w-full lg:w-[33%]">
